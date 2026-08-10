@@ -1,0 +1,73 @@
+version: 2
+
+models:
+  - name: clean__crm__current__account
+    description: Contas CRM normalizadas — escolas e redes parceiras.
+    columns:
+      - name: crm_account_id
+        description: PK da conta no CRM.
+        data_tests:
+          - unique
+          - not_null
+      - name: cnpj
+        description: CNPJ padronizado (só dígitos, 14 chars).
+        data_tests:
+          - not_null
+      - name: account_type
+        data_tests:
+          - accepted_values:
+              values: ['School', 'Network']
+      - name: is_deleted
+        data_tests:
+          - not_null
+
+  - name: clean__crm__current__user
+    description: Usuários CRM — Account Managers, CS e admins.
+    columns:
+      - name: crm_user_id
+        data_tests:
+          - unique
+          - not_null
+      - name: email
+        data_tests:
+          - not_null
+      - name: profile_name
+        data_tests:
+          - accepted_values:
+              values: ['Account Manager', 'CS Manager', 'Admin', 'Sales Rep']
+
+  - name: clean__crm__current__product
+    description: Catálogo de produtos CRM.
+    columns:
+      - name: crm_product_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: clean__crm__event__service_contract
+    description: Contratos de serviço CRM com normalização de número e status.
+    columns:
+      - name: crm_contract_id
+        data_tests:
+          - unique
+          - not_null
+      - name: contract_number
+        data_tests:
+          - not_null
+      - name: crm_account_id
+        data_tests:
+          - not_null
+      - name: is_cancelled
+        data_tests:
+          - not_null
+
+  - name: clean__crm__event__contract_line_item
+    description: Itens de contrato CRM.
+    columns:
+      - name: crm_line_item_id
+        data_tests:
+          - unique
+          - not_null
+      - name: crm_contract_id
+        data_tests:
+          - not_null

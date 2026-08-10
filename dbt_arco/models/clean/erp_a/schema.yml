@@ -1,0 +1,71 @@
+version: 2
+
+models:
+  - name: clean__erp_a__current__customer
+    description: Clientes do ERP A com CNPJ normalizado (só dígitos).
+    columns:
+      - name: customer_code
+        data_tests:
+          - unique
+          - not_null
+      - name: cnpj
+        data_tests:
+          - not_null
+
+  - name: clean__erp_a__current__salesperson
+    description: Vendedores do ERP A.
+    columns:
+      - name: salesperson_code
+        data_tests:
+          - unique
+          - not_null
+      - name: is_active
+        data_tests:
+          - not_null
+
+  - name: clean__erp_a__event__sales_order
+    description: Pedidos de venda ERP A com status normalizado e flag de cancelamento.
+    columns:
+      - name: doc_entry
+        data_tests:
+          - unique
+          - not_null
+      - name: status
+        data_tests:
+          - accepted_values:
+              values: ['open', 'closed', 'cancelled']
+      - name: is_cancelled
+        data_tests:
+          - not_null
+
+  - name: clean__erp_a__event__sales_order_item
+    description: Itens de pedido ERP A.
+    columns:
+      - name: doc_entry
+        data_tests:
+          - not_null
+      - name: line_num
+        data_tests:
+          - not_null
+
+  - name: clean__erp_a__event__delivery
+    description: Entregas ERP A.
+    columns:
+      - name: doc_entry
+        data_tests:
+          - unique
+          - not_null
+      - name: is_cancelled
+        data_tests:
+          - not_null
+
+  - name: clean__erp_a__event__invoice
+    description: Notas fiscais ERP A.
+    columns:
+      - name: doc_entry
+        data_tests:
+          - unique
+          - not_null
+      - name: is_cancelled
+        data_tests:
+          - not_null

@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: clean__fin__event__nota_fiscal
+    description: Notas fiscais com CNPJ normalizado e status de entrega padronizado.
+    columns:
+      - name: nota_fiscal_id
+        data_tests:
+          - unique
+          - not_null
+      - name: pedido_id
+        data_tests:
+          - not_null
+      - name: cnpj_cliente
+        data_tests:
+          - not_null
+      - name: delivery_status_normalized
+        data_tests:
+          - accepted_values:
+              values: ['delivered', 'in_transit', 'lost', 'returned', 'awaiting_pickup']

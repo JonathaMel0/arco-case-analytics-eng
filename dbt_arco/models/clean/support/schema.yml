@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: clean__support__current__organization
+    description: Organizações do suporte — CNPJ extraído do external_id quando válido (14 dígitos).
+    columns:
+      - name: organization_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: clean__support__current__user
+    description: Usuários do suporte (agentes e solicitantes).
+    columns:
+      - name: support_user_id
+        data_tests:
+          - unique
+          - not_null
+      - name: email
+        data_tests:
+          - not_null
+
+  - name: clean__support__event__ticket
+    description: Tickets de suporte com CNPJ normalizado.
+    columns:
+      - name: ticket_id
+        data_tests:
+          - unique
+          - not_null
+      - name: status
+        data_tests:
+          - accepted_values:
+              values: ['new', 'open', 'pending', 'hold', 'solved', 'closed']
+      - name: priority
+        data_tests:
+          - accepted_values:
+              values: ['low', 'normal', 'high', 'urgent']
+
+  - name: clean__support__event__ticket_tag
+    description: Tags associadas a tickets (relação N:N).
+    columns:
+      - name: ticket_id
+        data_tests:
+          - not_null
+      - name: tag
+        data_tests:
+          - not_null

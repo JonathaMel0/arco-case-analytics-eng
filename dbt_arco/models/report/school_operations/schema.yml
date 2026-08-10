@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: report__school_operations__monthly__school_order_metrics
+    description: >
+      Métricas mensais por escola: volume de pedidos, valor financeiro, entregas e tickets.
+      Grão: 1 linha por (school_id, month). Todas as métricas de contagem são COALESCE(x, 0).
+    columns:
+      - name: school_id
+        data_tests:
+          - not_null
+      - name: month
+        data_tests:
+          - not_null
+      - name: total_orders
+        data_tests:
+          - not_null
+      - name: ordered_amount
+        data_tests:
+          - not_null
+
+  - name: report__school_operations__ytd__am_portfolio_metrics
+    description: >
+      Métricas YTD (ano corrente) por Account Manager: contratos, pedidos, escolas servidas e tickets.
+      Grão: 1 linha por account_manager_id.
+    columns:
+      - name: account_manager_id
+        data_tests:
+          - unique
+          - not_null
+      - name: year
+        data_tests:
+          - not_null
+      - name: total_contracts
+        data_tests:
+          - not_null

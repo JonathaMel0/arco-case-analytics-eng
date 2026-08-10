@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: curated__school_operations__event__order
+    description: >
+      Pedidos unificados de ERP A e ERP B — 1 linha por pedido, independente da fonte.
+      order_id é surrogate key (md5 de source_system + source_order_id).
+      Decisão de modelagem: 315 contratos sobrepostos entre ERPs tratados como transações independentes
+      com discriminador source_system.
+    columns:
+      - name: order_id
+        description: PK surrogate — md5(source_system, source_order_id).
+        data_tests:
+          - unique
+          - not_null
+      - name: source_system
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['erp_a', 'erp_b']
+      - name: source_order_id
+        data_tests:
+          - not_null
+      - name: is_cancelled
+        data_tests:
+          - not_null
+
+  - name: staging__curated__school_operations__event__order__erp_a
+    description: Pedidos ERP A preparados para union com ERP B.
+    columns:
+      - name: source_order_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: staging__curated__school_operations__event__order__erp_b
+    description: Pedidos ERP B preparados para union com ERP A.
+    columns:
+      - name: source_order_id
+        data_tests:
+          - unique
+          - not_null

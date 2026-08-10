@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: curated__school_operations__event__ticket
+    description: >
+      Tickets de suporte enriquecidos com school_id (via CNPJ) e order_id (via order_ref do ERP B).
+      resolution_hours calculado como TIMESTAMP_DIFF(solved_at, created_at, HOUR).
+    columns:
+      - name: ticket_id
+        data_tests:
+          - unique
+          - not_null
+      - name: status
+        data_tests:
+          - accepted_values:
+              values: ['new', 'open', 'pending', 'hold', 'solved', 'closed']
+      - name: created_at
+        data_tests:
+          - not_null

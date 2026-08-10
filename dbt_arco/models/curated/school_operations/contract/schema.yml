@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: curated__school_operations__event__contract
+    description: >
+      Contratos de serviço CRM — 1 linha por contrato ativo.
+      Vincula school via crm_account_id e account_manager via owner_id do CRM.
+    columns:
+      - name: contract_id
+        description: PK — crm_contract_id.
+        data_tests:
+          - unique
+          - not_null
+      - name: contract_number
+        data_tests:
+          - unique
+          - not_null
+      - name: account_manager_id
+        description: FK para account_manager — nulo quando owner não é AM reconhecido.
+        data_tests:
+          - relationships:
+              to: ref('curated__school_operations__current__account_manager')
+              field: account_manager_id
+      - name: is_cancelled
+        data_tests:
+          - not_null

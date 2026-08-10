@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: curated__school_operations__event__delivery
+    description: >
+      Entregas unificadas de ERP A (doc de entrega) e FIN (nota fiscal).
+      delivery_id é surrogate key (md5 de source_system + source_delivery_id).
+    columns:
+      - name: delivery_id
+        description: PK surrogate — md5(source_system, source_delivery_id).
+        data_tests:
+          - unique
+          - not_null
+      - name: source_system
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['erp_a', 'fin']
+      - name: is_cancelled
+        data_tests:
+          - not_null
+
+  - name: staging__curated__school_operations__event__delivery__erp_a
+    description: Entregas ERP A preparadas para union com FIN.
+    columns:
+      - name: source_delivery_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: staging__curated__school_operations__event__delivery__fin
+    description: Entregas FIN (notas fiscais) preparadas para union com ERP A.
+    columns:
+      - name: source_delivery_id
+        data_tests:
+          - unique
+          - not_null

@@ -11,7 +11,7 @@
 |---|---|---|
 | 1 | Subir dados no BigQuery (raw) | ✅ Feito |
 | 2 | Construir modelos dbt (clean → curated → report) | ✅ Feito |
-| 3 | Subir tudo no GitHub | ⏳ Parcial |
+| 3 | Subir tudo no GitHub | ✅ Feito |
 | 4 | Conectar Metabase e construir relatório | ⏳ Parcial |
 | 5 | Documentações | ⏳ Parcial |
 
@@ -67,14 +67,13 @@ models/
 
 ---
 
-### ⏳ Passo 3 — GitHub
+### ✅ Passo 3 — GitHub
 
-- [x] Repositório criado: `JonathaMel0/arco-case-analytics-eng`
+- [x] Repositório: `JonathaMel0/arco-case-analytics-eng`
 - [x] RFC commitada (commit `832b985`)
-- [ ] **Falta commitar:** `dbt_arco/`, `upload_to_bigquery.py`, `.gitignore` atualizado
-- [ ] Atualizar `.gitignore` com entradas do dbt (`target/`, `dbt_packages/`, `logs/`, `.venv/`)
-
-**Ação:** `git add . && git commit -m "feat: dbt project clean/curated/report layers" && git push`
+- [x] `dbt_arco/` completo (47 arquivos, commit `4ffd4ac`)
+- [x] `upload_to_bigquery.py` e `.gitignore` atualizados
+- [x] `PROGRESSO.md` versionado
 
 ---
 
@@ -112,8 +111,8 @@ models/
 ## Ordem sugerida para finalizar
 
 ```
-1. [ ] Atualizar .gitignore
-2. [ ] Commitar e fazer push do dbt_arco/ + upload_to_bigquery.py
+1. [x] Atualizar .gitignore
+2. [x] Commitar e fazer push do dbt_arco/ + upload_to_bigquery.py
 3. [ ] Criar schema.yml com descrições e testes nas 3 camadas
 4. [ ] dbt test (validar testes)
 5. [ ] Construir dashboard no Metabase (5 cards)

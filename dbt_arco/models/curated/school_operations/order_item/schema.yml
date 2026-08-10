@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: curated__school_operations__event__order_item
+    description: Itens de pedido unificados de ERP A e ERP B.
+    columns:
+      - name: order_item_id
+        description: PK surrogate — md5(source_system, source_order_id, source_line_id).
+        data_tests:
+          - unique
+          - not_null
+      - name: order_id
+        description: FK para curated__school_operations__event__order.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('curated__school_operations__event__order')
+              field: order_id
+      - name: unit_price
+        data_tests:
+          - not_null
+
+  - name: staging__curated__school_operations__event__order_item__erp_a
+    description: Itens de pedido ERP A preparados para union.
+    columns:
+      - name: source_order_id
+        data_tests:
+          - not_null
+
+  - name: staging__curated__school_operations__event__order_item__erp_b
+    description: Itens de pedido ERP B preparados para union.
+    columns:
+      - name: source_order_id
+        data_tests:
+          - not_null

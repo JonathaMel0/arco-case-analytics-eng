@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: clean__erp_b__current__escola
+    description: Escolas do ERP B com CNPJ normalizado (só dígitos).
+    columns:
+      - name: escola_id
+        data_tests:
+          - unique
+          - not_null
+      - name: cnpj
+        data_tests:
+          - not_null
+
+  - name: clean__erp_b__current__vendedor
+    description: Vendedores do ERP B.
+    columns:
+      - name: vendedor_id
+        data_tests:
+          - unique
+          - not_null
+      - name: is_active
+        data_tests:
+          - not_null
+
+  - name: clean__erp_b__event__pedido
+    description: Pedidos ERP B com mapeamento de 15 valores de status para 3 normalizados.
+    columns:
+      - name: pedido_id
+        data_tests:
+          - unique
+          - not_null
+      - name: escola_id
+        data_tests:
+          - not_null
+      - name: status
+        data_tests:
+          - accepted_values:
+              values: ['in_progress', 'delivered', 'cancelled']
+      - name: is_cancelled
+        data_tests:
+          - not_null
+
+  - name: clean__erp_b__event__item_pedido
+    description: Itens de pedido ERP B com line_total calculado.
+    columns:
+      - name: item_id
+        data_tests:
+          - unique
+          - not_null
+      - name: pedido_id
+        data_tests:
+          - not_null

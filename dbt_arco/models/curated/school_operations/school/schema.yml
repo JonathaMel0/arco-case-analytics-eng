@@ -1,0 +1,57 @@
+version: 2
+
+models:
+  - name: curated__school_operations__current__school
+    description: >
+      Entidade School — fonte única da verdade para escolas.
+      Consolida CRM, ERP A, ERP B e Support via CNPJ como chave de identidade.
+      school_id usa o crm_account_id como master; escolas sem CRM recebem id sintético NCRM-<cnpj>.
+    columns:
+      - name: school_id
+        description: PK da escola — crm_account_id ou NCRM-<cnpj>.
+        data_tests:
+          - unique
+          - not_null
+      - name: cnpj
+        description: CNPJ normalizado (14 dígitos) — chave de identidade entre sistemas.
+        data_tests:
+          - unique
+          - not_null
+
+  - name: staging__curated__school_operations__current__school__crm
+    description: Escolas originadas do CRM (Type = 'School').
+    columns:
+      - name: source_id
+        data_tests:
+          - unique
+          - not_null
+      - name: cnpj
+        data_tests:
+          - not_null
+
+  - name: staging__curated__school_operations__current__school__erp_a
+    description: Escolas originadas do ERP A (clientes).
+    columns:
+      - name: source_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: staging__curated__school_operations__current__school__erp_b
+    description: Escolas originadas do ERP B.
+    columns:
+      - name: source_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: staging__curated__school_operations__current__school__support
+    description: Escolas originadas do Support (organizations com CNPJ válido).
+    columns:
+      - name: source_id
+        data_tests:
+          - unique
+          - not_null
+      - name: cnpj
+        data_tests:
+          - not_null

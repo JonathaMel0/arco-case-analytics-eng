@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: curated__school_operations__current__account_manager
+    description: >
+      Account Managers ativos com pelo menos um contrato ou account no CRM.
+      Fonte: crm_user com profile_name em (Account Manager, CS Manager, Sales Rep).
+    columns:
+      - name: account_manager_id
+        description: PK — crm_user_id do AM.
+        data_tests:
+          - unique
+          - not_null
+      - name: email
+        data_tests:
+          - unique
+          - not_null
+      - name: is_active
+        data_tests:
+          - not_null
