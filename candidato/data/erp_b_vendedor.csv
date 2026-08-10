@@ -1,0 +1,21 @@
+id_vendedor,nome,email,regiao,ativo
+1,Eduardo Monteiro,vendedor1@arco.com.br,Sul,S
+2,Maria Isis da Costa,vendedor2@arco.com.br,Nordeste,S
+3,Maysa Silveira,vendedor3@arco.com.br,Norte,S
+4,Eloah Costela,vendedor4@arco.com.br,Nordeste,N
+5,Manuella Aragão,vendedor5@arco.com.br,Centro-Oeste,S
+6,Julia Sá,vendedor6@arco.com.br,Sudeste,S
+7,Benjamim Cavalcante,vendedor7@arco.com.br,Centro-Oeste,S
+8,Maria Liz Melo,vendedor8@arco.com.br,Nordeste,N
+9,Renan Souza,vendedor9@arco.com.br,Sul,N
+10,Isabel Garcia,vendedor10@arco.com.br,Centro-Oeste,S
+11,Maria Julia Melo,vendedor11@arco.com.br,Norte,S
+12,Diogo Moura,vendedor12@arco.com.br,Sul,S
+13,Alice da Paz,vendedor13@arco.com.br,Sul,S
+14,Maria Helena Rocha,vendedor14@arco.com.br,Sudeste,S
+15,Sr. Calebe Nascimento,vendedor15@arco.com.br,Norte,S
+16,Maria Lopes,vendedor16@arco.com.br,Sul,S
+17,Júlia Farias,vendedor17@arco.com.br,Centro-Oeste,N
+18,João Felipe Brito,vendedor18@arco.com.br,Sul,N
+19,Matteo Martins,vendedor19@arco.com.br,Nordeste,S
+20,Isabella Siqueira,vendedor20@arco.com.br,Centro-Oeste,S

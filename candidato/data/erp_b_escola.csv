@@ -1,0 +1,254 @@
+id_escola,nome_escola,cnpj,cidade,estado,email,id_vendedor,dt_cadastro,dt_atualizacao
+1,Alves Colégio,10 433 218 1960 01,Maceió,AL,contato1@escola.com.br,16,2022-02-12,2025-08-21
+2,Carvalho Sousa S/A,26 542 351 1615 59,Feira de Santana,BA,contato3@escola.com.br,4,2022-08-06,2023-09-30
+3,Pastor Instituto,40781618495931,Maceió,AL,contato4@escola.com.br,17,2022-12-20,2024-12-06
+4,Alves Instituto,03413164752553,Campo Grande,MS,contato5@escola.com.br,17,2022-06-12,2023-08-18
+5,da Conceição Montenegro - EI,41 928 327 6483 50,Olinda,PE,contato6@escola.com.br,1,2022-05-13,2024-12-21
+6,Novais S.A.,83685786015800,Maceió,AL,contato7@escola.com.br,8,2022-08-09,2025-08-07
+7,Câmara Instituto,42 388 496 9653 28,João Pessoa,PB,contato8@escola.com.br,3,2023-06-08,2024-09-13
+8,Pastor,71012269166978,Maceió,AL,contato9@escola.com.br,1,2022-11-02,2024-05-02
+9,Abreu Escola,48018451462704,Blumenau,SC,contato10@escola.com.br,2,2023-05-21,2024-11-21
+10,Teixeira Fernandes S/A,20780282739800,Olinda,PE,contato13@escola.com.br,20,2023-06-08,2025-08-22
+11,Garcia S/A,46.578.713/3150-98,Belém,PA,contato14@escola.com.br,15,2023-02-04,2025-03-31
+12,Ferreira,39.301.031/0518-34,Porto Alegre,RS,contato15@escola.com.br,11,2022-03-15,2023-08-07
+13,Nascimento,56 670 106 5133 38,Maringá,PR,contato17@escola.com.br,10,2023-06-10,2024-09-12
+14,Garcia Escola,72.624.731/7810-80,Porto Alegre,RS,contato18@escola.com.br,10,2022-05-23,2024-07-03
+15,Oliveira Centro Educacional,74.687.234/3098-05,Natal,RN,contato20@escola.com.br,17,2022-02-21,2025-10-03
+16,Santos Azevedo S/A,00978820812191,Uberlândia,MG,contato21@escola.com.br,17,2022-09-26,2024-02-18
+17,Vargas Instituto,36.193.990/9169-98,Maringá,PR,contato22@escola.com.br,1,2022-04-14,2024-12-27
+18,Brito Escola,54.353.462/4751-07,Natal,RN,contato23@escola.com.br,17,2022-08-08,2024-06-02
+19,Porto Escola,99.118.384/2513-54,São Luís,MA,contato24@escola.com.br,5,2023-06-27,2025-12-09
+20,Castro,27.849.808/4124-11,Vitória,ES,contato25@escola.com.br,20,2023-04-05,2024-02-13
+21,Fogaça Colégio,82.449.353/4874-01,Manaus,AM,contato26@escola.com.br,15,2023-03-29,2024-11-11
+22,Rios Centro Educacional,64005242786801,Olinda,PE,contato27@escola.com.br,18,2022-04-20,2024-03-07
+23,Pereira Colégio,05754100316900,Belém,PA,contato28@escola.com.br,13,2022-06-09,2023-09-17
+24,Nascimento Siqueira S.A.,39238165142400,João Pessoa,PB,contato29@escola.com.br,20,2022-10-09,2023-12-11
+25,Rodrigues Colégio,43303654145868,Juazeiro do Norte,CE,contato31@escola.com.br,10,2022-01-10,2024-09-08
+26,Andrade Dias - ME,50.142.940/1965-56,Recife,PE,contato32@escola.com.br,18,2022-11-10,2024-07-03
+27,Azevedo,98.169.340/6088-35,Anápolis,GO,contato33@escola.com.br,20,2022-09-26,2023-10-18
+28,Carvalho Colégio,95134332003791,Manaus,AM,contato37@escola.com.br,4,2022-07-04,2024-12-13
+29,Souza Novais - EI,76936763201632,Belém,PA,contato38@escola.com.br,4,2022-12-23,2023-11-03
+30,Souza Centro Educacional,87.083.172/7889-57,Brasília,DF,contato39@escola.com.br,11,2022-10-03,2025-10-05
+31,Pacheco,98 687 277 4348 73,Vitória,ES,contato40@escola.com.br,20,2023-05-13,2023-08-13
+32,Fonseca Centro Educacional,47143455812236,Londrina,PR,contato41@escola.com.br,16,2022-09-27,2023-08-30
+33,Carvalho Moraes - ME,23166587603669,João Pessoa,PB,contato42@escola.com.br,9,2022-08-10,2024-05-20
+34,Sá Instituto,09670546688937,Juazeiro do Norte,CE,contato43@escola.com.br,3,2022-01-26,2025-01-01
+35,Cassiano e Filhos,34.670.656/2729-80,João Pessoa,PB,contato44@escola.com.br,3,2022-04-23,2023-11-02
+36,Vieira Colégio,69901627204653,Maceió,AL,contato45@escola.com.br,10,2023-06-07,2024-09-02
+37,Gomes - ME,75.564.641/7080-53,Belém,PA,contato46@escola.com.br,12,2022-12-10,2025-09-27
+38,Moura,10 033 092 3271 93,São Luís,MA,contato47@escola.com.br,17,2023-06-22,2024-04-04
+39,Novaes Instituto,74529912419049,Joinville,SC,contato48@escola.com.br,15,2022-10-21,2024-11-02
+40,Rodrigues e Filhos,66.319.314/9190-58,Natal,RN,contato49@escola.com.br,15,2023-06-26,2025-04-20
+41,Rodrigues - EI,65185067165726,Juazeiro do Norte,CE,contato50@escola.com.br,3,2023-01-31,2025-10-08
+42,Vargas Escola,28.498.776/9453-14,João Pessoa,PB,contato51@escola.com.br,16,2023-04-16,2025-01-27
+43,Camargo,73799650752735,Belém,PA,contato52@escola.com.br,3,2023-03-27,2025-12-20
+44,Lopes Instituto,45494808313678,Pelotas,RS,contato53@escola.com.br,8,2022-03-05,2025-04-26
+45,Marques Escola,37.770.143/6349-57,Olinda,PE,contato54@escola.com.br,16,2022-10-05,2025-11-27
+46,Montenegro Instituto,71314396926100,Florianópolis,SC,contato55@escola.com.br,5,2023-06-23,2025-08-27
+47,Montenegro Centro Educacional,51.823.374/9894-13,Feira de Santana,BA,contato56@escola.com.br,15,2022-08-26,2023-08-08
+48,Porto,43524082400842,Brasília,DF,contato57@escola.com.br,11,2023-04-23,2025-07-11
+49,Cassiano Escola,71.094.777/5204-71,Joinville,SC,contato58@escola.com.br,15,2022-11-09,2025-05-31
+50,Almeida Colégio,69993867749649,Londrina,PR,contato60@escola.com.br,16,2022-11-12,2024-05-28
+51,Fonseca Colégio,90.913.341/2328-12,Maceió,AL,contato61@escola.com.br,4,2022-12-08,2025-03-06
+52,Araújo Escola,06.797.403/4471-34,Belo Horizonte,MG,contato62@escola.com.br,12,2023-05-10,2025-08-20
+53,Barros Colégio,93.618.324/2102-49,Fortaleza,CE,contato63@escola.com.br,13,2022-10-01,2024-03-15
+54,Azevedo,94717464887719,Vitória,ES,contato64@escola.com.br,18,2022-11-07,2025-07-14
+55,Cunha,51.256.746/8071-54,Maceió,AL,contato67@escola.com.br,15,2023-01-23,2023-12-08
+56,Macedo,70 348 247 7109 32,Blumenau,SC,contato69@escola.com.br,19,2023-05-15,2025-12-30
+57,Campos Instituto,48.086.131/7127-48,Campo Grande,MS,contato70@escola.com.br,12,2022-11-14,2025-12-19
+58,Câmara Instituto,46773782639821,Campinas,SP,contato71@escola.com.br,10,2022-05-03,2024-02-25
+59,Pastor Instituto,46 584 044 9972 78,Manaus,AM,contato72@escola.com.br,11,2022-04-22,2025-03-12
+60,Pastor Câmara S/A,75.588.675/3396-36,Salvador,BA,contato73@escola.com.br,4,2023-06-08,2024-09-16
+61,Santos Colégio,05766270289517,Maceió,AL,contato74@escola.com.br,13,2022-06-29,2024-07-22
+62,da Conceição S/A,23924151340100,Maceió,AL,contato75@escola.com.br,20,2023-04-19,2023-10-13
+63,Farias Escola,58.657.809/1343-16,Niterói,RJ,contato76@escola.com.br,9,2022-03-21,2023-11-09
+64,da Escola,11 724 005 0455 62,Recife,PE,contato77@escola.com.br,9,2022-05-01,2024-12-14
+65,da Centro Educacional,23747407482175,Juazeiro do Norte,CE,contato79@escola.com.br,4,2023-02-13,2024-04-02
+66,Jesus Colégio,94.647.436/7136-95,Vila Velha,ES,contato80@escola.com.br,16,2023-01-25,2024-05-17
+67,Brito Colégio,94.406.409/0974-39,Belém,PA,contato81@escola.com.br,18,2022-12-29,2025-12-11
+68,Fogaça Escola,53.394.210/4709-52,Manaus,AM,contato82@escola.com.br,10,2023-04-09,2023-07-11
+69,Jesus,14562328588424,Belo Horizonte,MG,contato83@escola.com.br,15,2022-04-03,2025-04-12
+70,Siqueira,74 517 123 6851 60,Natal,RN,contato84@escola.com.br,15,2022-03-10,2024-07-03
+71,Rocha e Filhos,48 175 496 5137 09,Natal,RN,contato85@escola.com.br,8,2022-01-03,2024-08-04
+72,Caldeira Instituto,11.382.675/8692-61,Recife,PE,contato87@escola.com.br,19,2022-03-25,2025-03-20
+73,Carvalho Escola,50.643.171/3900-53,João Pessoa,PB,contato89@escola.com.br,7,2023-06-02,2023-12-21
+74,Cirino,29318393352904,Fortaleza,CE,contato90@escola.com.br,8,2022-06-24,2025-09-09
+75,Martins,22842102053950,São Luís,MA,contato91@escola.com.br,18,2023-06-19,2024-11-20
+76,Aragão Escola,78.390.847/0076-61,Manaus,AM,contato93@escola.com.br,5,2022-03-10,2023-11-22
+77,Jesus Colégio,69 847 896 1183 67,Manaus,AM,contato95@escola.com.br,10,2022-04-16,2025-07-22
+78,Guerra Araújo S.A.,36576615654527,Natal,RN,contato96@escola.com.br,20,2022-10-02,2024-06-11
+79,da Luz,16 560 494 5198 32,João Pessoa,PB,contato98@escola.com.br,9,2022-04-01,2024-02-06
+80,da Colégio,73 158 514 9368 99,Olinda,PE,contato99@escola.com.br,9,2022-05-13,2023-11-27
+81,Sampaio Escola,80.940.244/5502-29,Cuiabá,MT,contato100@escola.com.br,16,2023-02-15,2023-12-05
+82,Cassiano Escola,61201836675254,João Pessoa,PB,contato101@escola.com.br,15,2022-05-03,2025-10-10
+83,da Colégio,59.910.229/0147-67,Campo Grande,MS,contato102@escola.com.br,17,2022-05-11,2023-09-09
+84,Souza Colégio,97 643 815 6149 78,Fortaleza,CE,contato103@escola.com.br,5,2022-10-12,2023-09-13
+85,Aragão - EI,40369003432445,Belém,PA,contato104@escola.com.br,16,2022-07-22,2024-12-02
+86,Montenegro,10 762 268 3885 16,Olinda,PE,contato105@escola.com.br,14,2022-03-10,2023-07-09
+87,Guerra Campos - EI,16453521818835,Fortaleza,CE,contato108@escola.com.br,11,2023-03-05,2024-01-07
+88,Pacheco Colégio,52.312.432/9212-77,Goiânia,GO,contato109@escola.com.br,8,2022-09-10,2023-09-06
+89,Leão Escola,99.799.552/7177-44,Belém,PA,contato110@escola.com.br,16,2023-01-20,2025-11-04
+90,Rios Instituto,99867980793597,Joinville,SC,contato112@escola.com.br,15,2022-01-21,2025-09-14
+91,da Escola,82.071.518/2037-78,Brasília,DF,contato113@escola.com.br,10,2022-08-03,2024-12-07
+92,Sá Escola,18.644.925/1925-46,Blumenau,SC,contato115@escola.com.br,13,2022-04-16,2024-02-01
+93,Albuquerque - ME,29148652816850,Feira de Santana,BA,contato116@escola.com.br,10,2023-01-05,2024-04-06
+94,Azevedo Escola,06.537.947/3834-73,Salvador,BA,contato119@escola.com.br,19,2022-01-26,2024-01-09
+95,Freitas da Paz S.A.,59.774.688/6239-24,Salvador,BA,contato120@escola.com.br,4,2022-11-16,2024-04-11
+96,Nogueira Instituto,07.581.814/1247-82,Maceió,AL,contato121@escola.com.br,1,2022-12-19,2023-09-11
+97,Pimenta Centro Educacional,61 375 060 6853 61,Curitiba,PR,contato122@escola.com.br,6,2023-04-05,2024-11-05
+98,Carvalho Ltda.,41.036.971/1798-08,Natal,RN,contato125@escola.com.br,10,2023-02-24,2024-09-01
+99,Caldeira e Filhos,93246095396218,Campo Grande,MS,contato126@escola.com.br,8,2023-06-11,2023-12-26
+100,Silva Fernandes S.A.,05153195205852,Campo Grande,MS,contato128@escola.com.br,14,2022-02-09,2025-01-12
+101,Montenegro,77221704303054,Campo Grande,MS,contato129@escola.com.br,6,2023-05-13,2023-10-09
+102,da Cunha,86874034505415,Manaus,AM,contato130@escola.com.br,14,2023-02-04,2023-12-20
+103,da Mota,69.284.511/5447-96,João Pessoa,PB,contato132@escola.com.br,14,2023-01-24,2023-09-02
+104,Porto da Luz S.A.,20297021355690,São Luís,MA,contato134@escola.com.br,16,2023-01-14,2025-09-27
+105,Novais Escola,31027868144739,Manaus,AM,contato136@escola.com.br,16,2023-02-27,2025-12-04
+106,Camargo S/A,47.312.172/7155-18,Belém,PA,contato137@escola.com.br,15,2023-06-25,2025-03-23
+107,Nogueira Andrade Ltda.,84422583132370,Cuiabá,MT,contato138@escola.com.br,18,2022-05-30,2025-02-02
+108,Lopes Escola,58 957 829 1146 78,Manaus,AM,contato139@escola.com.br,3,2022-05-25,2025-01-08
+109,Fonseca Instituto,66.912.517/7852-89,Brasília,DF,contato140@escola.com.br,4,2023-05-15,2025-04-08
+110,Fogaça Centro Educacional,22 680 182 4225 35,Campinas,SP,contato141@escola.com.br,13,2022-11-25,2024-12-05
+111,Pinto Centro Educacional,99.229.959/0010-94,Brasília,DF,contato143@escola.com.br,8,2022-10-14,2024-10-27
+112,da Costa Castro S.A.,39.690.784/4736-47,Maceió,AL,contato144@escola.com.br,3,2022-08-28,2024-08-08
+113,Alves Centro Educacional,10.276.773/5925-55,Blumenau,SC,contato145@escola.com.br,15,2023-03-19,2024-01-01
+114,da Colégio,60183578417000,Juazeiro do Norte,CE,contato147@escola.com.br,18,2023-05-09,2023-09-02
+115,Câmara,00.479.748/0162-45,Vitória,ES,contato149@escola.com.br,14,2023-01-04,2025-01-22
+116,Marques Instituto,65060983584168,Campo Grande,MS,contato150@escola.com.br,11,2023-04-30,2024-06-01
+117,Câmara Alves e Filhos,78499121655852,Feira de Santana,BA,contato151@escola.com.br,14,2023-03-23,2024-08-09
+118,Guerra Farias Ltda.,39.868.000/2578-72,Vila Velha,ES,contato152@escola.com.br,12,2023-04-14,2023-07-16
+119,Ramos,87.947.055/1694-09,Cuiabá,MT,contato154@escola.com.br,15,2022-10-14,2024-06-20
+120,Alves Escola,09130756263689,João Pessoa,PB,contato156@escola.com.br,7,2023-06-20,2025-01-16
+121,da Luz S.A.,70 283 857 8652 78,Pelotas,RS,contato157@escola.com.br,2,2022-01-13,2025-02-26
+122,Andrade Escola,58 549 733 4843 44,Fortaleza,CE,contato158@escola.com.br,19,2022-11-01,2025-10-03
+123,Peixoto - ME,37.575.844/1986-65,Natal,RN,contato159@escola.com.br,5,2022-06-11,2025-10-08
+124,Siqueira,24.041.574/7338-48,Belém,PA,contato160@escola.com.br,17,2022-09-22,2025-11-18
+125,Lopes,42.199.330/8330-16,Maringá,PR,contato161@escola.com.br,13,2023-02-26,2025-12-09
+126,Gomes Colégio,57.120.826/7734-54,Londrina,PR,contato162@escola.com.br,19,2023-03-17,2024-01-09
+127,da Cunha Aparecida e Filhos,01938026206724,Campinas,SP,contato163@escola.com.br,9,2022-07-25,2025-06-11
+128,Abreu Colégio,00 499 154 7887 28,São Luís,MA,contato164@escola.com.br,20,2023-05-20,2024-07-23
+129,Fonseca Lopes S/A,74.315.274/2054-93,Maringá,PR,contato165@escola.com.br,8,2022-05-30,2024-10-21
+130,Pinto Colégio,29668516122753,Manaus,AM,contato166@escola.com.br,3,2022-10-18,2025-07-07
+131,Ribeiro,04637454990453,Campo Grande,MS,contato167@escola.com.br,10,2023-03-27,2024-12-15
+132,Silveira Colégio,01.742.684/1459-33,Fortaleza,CE,contato168@escola.com.br,19,2023-02-16,2025-05-29
+133,Rios Colégio,27279568783391,Belém,PA,contato169@escola.com.br,6,2022-02-07,2024-10-02
+134,Sampaio Colégio,25.871.397/1870-72,Feira de Santana,BA,contato171@escola.com.br,15,2022-01-31,2023-07-12
+135,Novaes Escola,86790874064039,Campo Grande,MS,contato172@escola.com.br,17,2022-10-08,2024-10-15
+136,Correia Colégio,10.651.801/7046-22,Cuiabá,MT,contato173@escola.com.br,6,2022-03-06,2024-11-30
+137,Rocha Escola,65 676 618 2512 86,Juazeiro do Norte,CE,contato174@escola.com.br,14,2022-09-02,2025-08-13
+138,Pimenta Centro Educacional,82300478686337,Vila Velha,ES,contato175@escola.com.br,14,2022-05-09,2025-01-13
+139,Novaes Escola,52.431.069/0331-19,Vitória,ES,contato176@escola.com.br,9,2022-01-04,2025-07-08
+140,da Instituto,07 903 067 3830 28,São Luís,MA,contato177@escola.com.br,16,2022-12-25,2025-11-04
+141,Lopes Viana - EI,43.959.953/4283-64,Vitória,ES,contato178@escola.com.br,18,2023-01-19,2023-10-07
+142,Martins,40 892 687 0568 56,João Pessoa,PB,contato179@escola.com.br,10,2022-08-06,2025-04-15
+143,Macedo Escola,62.462.873/3427-08,Anápolis,GO,contato180@escola.com.br,11,2023-06-28,2023-10-05
+144,Moraes Colégio,66.882.634/3517-51,Brasília,DF,contato181@escola.com.br,18,2022-07-10,2024-08-01
+145,Ribeiro Centro Educacional,83046990139837,Cuiabá,MT,contato182@escola.com.br,15,2023-01-03,2025-05-04
+146,Borges,35403317393638,Belém,PA,contato183@escola.com.br,18,2022-06-24,2024-01-20
+147,Casa Colégio,53556093204899,Blumenau,SC,contato185@escola.com.br,17,2022-02-18,2025-04-10
+148,Melo Pimenta S/A,64235369378547,Brasília,DF,contato186@escola.com.br,9,2022-01-12,2024-05-18
+149,Leão,77 252 287 2808 01,Maceió,AL,contato187@escola.com.br,17,2022-12-16,2024-10-08
+150,Silva Instituto,00623120387509,Belo Horizonte,MG,contato188@escola.com.br,9,2023-02-17,2024-01-21
+151,Guerra,97.700.886/0084-84,Joinville,SC,contato189@escola.com.br,6,2022-01-11,2025-10-21
+152,Casa Colégio,08621182339845,Olinda,PE,contato190@escola.com.br,17,2022-02-21,2025-04-18
+153,Sá S/A,46 156 793 3410 16,Brasília,DF,contato191@escola.com.br,3,2023-03-06,2025-08-03
+154,Câmara,66870021765918,Juazeiro do Norte,CE,contato192@escola.com.br,13,2023-04-12,2025-07-18
+155,Sampaio Centro Educacional,03397401489025,Juazeiro do Norte,CE,contato193@escola.com.br,20,2023-01-21,2025-09-13
+156,Novais S.A.,03.926.142/9396-85,Vila Velha,ES,contato194@escola.com.br,2,2022-03-15,2023-11-15
+157,Marques Instituto,62.185.016/3159-99,São Luís,MA,contato195@escola.com.br,6,2022-03-05,2025-05-07
+158,Rios Colégio,73108370890500,Florianópolis,SC,contato196@escola.com.br,16,2023-05-21,2025-03-30
+159,Sá,19.431.142/6265-51,Maringá,PR,contato197@escola.com.br,13,2023-01-03,2023-12-04
+160,Novaes,86101581995604,Belo Horizonte,MG,contato199@escola.com.br,2,2023-01-27,2024-04-06
+161,Castro,66.183.982/6224-44,Joinville,SC,contato200@escola.com.br,18,2023-04-27,2025-02-23
+162,Sá,99.371.240/6596-57,Uberlândia,MG,contato202@escola.com.br,8,2023-06-23,2024-05-01
+163,Porto da Mota - EI,56 924 593 7526 54,Natal,RN,contato203@escola.com.br,4,2023-01-11,2025-06-14
+164,da Centro Educacional,80.737.416/7243-42,Manaus,AM,contato205@escola.com.br,12,2022-10-02,2023-09-24
+165,da Costa,66.179.796/8868-05,Caxias do Sul,RS,contato206@escola.com.br,20,2022-09-11,2024-09-09
+166,Farias,89.113.529/0965-61,Maceió,AL,contato207@escola.com.br,14,2022-06-26,2024-08-20
+167,Nogueira Colégio,01.438.889/9375-67,Juiz de Fora,MG,contato208@escola.com.br,3,2022-11-21,2024-10-09
+168,Gomes Sales S.A.,57 387 571 7751 40,Recife,PE,contato210@escola.com.br,2,2022-07-19,2025-11-13
+169,Azevedo Leão - ME,10512382825867,Anápolis,GO,contato211@escola.com.br,4,2023-04-23,2024-11-28
+170,Nogueira Centro Educacional,36226609379660,Curitiba,PR,contato212@escola.com.br,3,2022-10-03,2024-05-11
+171,Costela - ME,87947693257200,São Paulo,SP,contato214@escola.com.br,10,2022-10-19,2025-09-04
+172,Teixeira - EI,66929662782827,Campo Grande,MS,contato216@escola.com.br,5,2022-05-10,2024-12-22
+173,Fogaça Escola,87.676.772/1903-40,Natal,RN,contato218@escola.com.br,2,2022-01-02,2023-12-07
+174,Leão,43842797881914,Maringá,PR,contato219@escola.com.br,8,2022-11-12,2025-01-17
+175,Mendonça Colégio,85807836134074,Natal,RN,contato220@escola.com.br,4,2022-05-31,2024-03-23
+176,Mendonça,51.713.395/9629-23,João Pessoa,PB,contato221@escola.com.br,6,2023-03-20,2024-12-07
+177,Gomes Instituto,30958498254494,João Pessoa,PB,contato222@escola.com.br,1,2023-01-03,2025-06-05
+178,Silveira,81.260.422/3253-67,Manaus,AM,contato223@escola.com.br,1,2022-11-03,2024-04-28
+179,Barros Escola,54.589.297/5001-70,Uberlândia,MG,contato226@escola.com.br,5,2022-10-09,2024-09-01
+180,Carvalho,12.770.632/4241-54,Anápolis,GO,contato227@escola.com.br,6,2022-02-10,2024-02-19
+181,da Escola,29 387 005 1627 13,Londrina,PR,contato229@escola.com.br,8,2022-09-10,2023-10-13
+182,Cunha Instituto,61.115.542/6221-89,São Paulo,SP,contato230@escola.com.br,16,2022-07-09,2025-11-01
+183,Teixeira Colégio,19.656.523/4138-99,Vila Velha,ES,contato232@escola.com.br,10,2022-12-17,2024-12-27
+184,da Instituto,94 043 898 3640 37,Campo Grande,MS,contato233@escola.com.br,11,2022-07-10,2023-09-29
+185,da Cunha,61.379.180/5526-96,Campo Grande,MS,contato234@escola.com.br,20,2022-12-08,2024-10-31
+186,Ferreira S.A.,84866618892414,São Luís,MA,contato236@escola.com.br,6,2022-10-18,2024-04-14
+187,Vasconcelos Colégio,18.328.569/1463-03,Maceió,AL,contato237@escola.com.br,4,2022-10-23,2024-01-15
+188,da Costa Cardoso - ME,81.491.778/5079-25,São Luís,MA,contato240@escola.com.br,9,2023-06-23,2024-12-08
+189,Sampaio,62.208.635/3654-19,Blumenau,SC,contato242@escola.com.br,16,2022-06-18,2023-10-16
+190,Vargas Colégio,51 802 380 6174 45,Belém,PA,contato243@escola.com.br,10,2022-03-20,2025-08-04
+191,Vasconcelos Colégio,73.832.060/3850-50,Uberlândia,MG,contato245@escola.com.br,5,2023-02-05,2025-07-14
+192,das Colégio,86.571.918/2619-90,Anápolis,GO,contato247@escola.com.br,6,2023-06-07,2024-07-19
+193,Barbosa Pastor e Filhos,29121277561853,Belo Horizonte,MG,contato249@escola.com.br,6,2022-09-04,2025-11-17
+194,Caldeira Centro Educacional,74741124903521,Londrina,PR,contato250@escola.com.br,1,2023-06-30,2023-10-02
+195,Vieira - EI,35680442067883,Pelotas,RS,contato251@escola.com.br,12,2022-05-19,2024-07-18
+196,Ferreira Escola,17121003236519,Cuiabá,MT,contato252@escola.com.br,6,2022-12-18,2025-02-04
+197,Azevedo,29 667 066 2532 44,Feira de Santana,BA,contato254@escola.com.br,3,2022-04-18,2025-10-28
+198,Albuquerque,72.099.934/7687-01,Campinas,SP,contato255@escola.com.br,4,2022-04-22,2024-08-14
+199,Mendonça Escola,46263838065787,Petrópolis,RJ,contato256@escola.com.br,20,2023-05-23,2024-09-14
+200,Lopes Instituto,59856420593040,Campinas,SP,contato257@escola.com.br,6,2022-02-15,2023-12-27
+201,Santos,78.593.213/3480-39,Caxias do Sul,RS,contato258@escola.com.br,10,2022-05-13,2024-03-05
+202,Lopes Cavalcanti e Filhos,65 223 955 9059 92,Fortaleza,CE,contato259@escola.com.br,15,2022-12-06,2025-01-03
+203,Pimenta,93.784.270/1039-30,Cuiabá,MT,contato260@escola.com.br,9,2022-01-04,2023-11-06
+204,Siqueira Instituto,21 851 569 1545 22,Curitiba,PR,contato262@escola.com.br,13,2022-05-10,2025-07-31
+205,Duarte,67.528.953/9264-42,Campo Grande,MS,contato263@escola.com.br,4,2023-01-06,2025-01-20
+206,Borges da Mota - ME,20 969 029 5939 17,Brasília,DF,contato264@escola.com.br,7,2022-02-24,2024-03-21
+207,Fernandes Escola,15 410 067 6267 65,Vila Velha,ES,contato266@escola.com.br,6,2022-11-03,2024-08-18
+208,Mendonça Cunha Ltda.,96371099964100,Belo Horizonte,MG,contato268@escola.com.br,19,2023-01-09,2024-08-01
+209,Fernandes Escola,62 962 015 3368 84,Niterói,RJ,contato269@escola.com.br,3,2022-05-06,2023-10-18
+210,Peixoto Instituto,44 310 698 7205 06,Belém,PA,contato270@escola.com.br,9,2022-05-29,2024-09-11
+211,da Costa e Filhos,47743490211586,Juazeiro do Norte,CE,contato273@escola.com.br,3,2023-04-08,2025-06-03
+212,Mendonça,23466038090100,São Paulo,SP,contato274@escola.com.br,4,2023-05-22,2023-10-17
+213,Sales Instituto,60898992172233,Olinda,PE,contato275@escola.com.br,8,2023-03-02,2025-10-06
+214,Machado,20.616.329/4511-68,Cuiabá,MT,contato276@escola.com.br,9,2023-04-05,2025-03-13
+215,Borges Instituto,68.548.709/9861-62,Rio de Janeiro,RJ,contato277@escola.com.br,19,2022-02-14,2024-02-12
+216,Guerra Centro Educacional,29 991 191 4856 46,Cuiabá,MT,contato278@escola.com.br,4,2023-05-08,2025-11-16
+217,Ribeiro,79.970.246/2996-06,Manaus,AM,contato279@escola.com.br,16,2022-04-28,2024-04-07
+218,Melo Centro Educacional,53 074 505 4447 13,Campo Grande,MS,contato280@escola.com.br,3,2023-01-09,2025-06-20
+219,Lima,24.754.691/3736-78,Anápolis,GO,contato281@escola.com.br,4,2022-01-31,2025-06-16
+220,Fogaça Instituto,50821486289023,Blumenau,SC,contato282@escola.com.br,12,2023-01-01,2024-12-08
+221,da Centro Educacional,30.307.053/4578-61,Petrópolis,RJ,contato283@escola.com.br,1,2023-03-23,2023-12-01
+222,da Centro Educacional,03579727985524,Natal,RN,contato284@escola.com.br,20,2022-04-26,2024-08-26
+223,Campos,00722903494466,Goiânia,GO,contato286@escola.com.br,13,2022-09-04,2025-07-31
+224,Correia Centro Educacional,57.437.489/6910-85,Vitória,ES,contato287@escola.com.br,17,2022-06-11,2025-03-27
+225,da Mota,89.944.171/5454-44,Salvador,BA,contato288@escola.com.br,4,2023-03-08,2023-07-10
+226,Brito,32 830 965 2074 46,Olinda,PE,contato289@escola.com.br,13,2023-01-31,2024-09-16
+227,da Escola,66.099.353/8758-42,Brasília,DF,contato290@escola.com.br,13,2022-05-26,2024-03-15
+228,da Rosa Albuquerque e Filhos,82417248251353,Joinville,SC,contato291@escola.com.br,3,2022-02-22,2025-03-22
+229,da Mota Aparecida S/A,46.554.947/1709-99,João Pessoa,PB,contato292@escola.com.br,17,2023-01-07,2024-08-10
+230,Sampaio Colégio,17381684602235,Belém,PA,contato293@escola.com.br,16,2023-05-12,2025-10-07
+231,Porto Sá - ME,69.725.217/5250-07,São Paulo,SP,contato294@escola.com.br,9,2022-12-30,2024-12-19
+232,Albuquerque - EI,43292712966667,João Pessoa,PB,contato295@escola.com.br,5,2022-07-17,2025-08-24
+233,Melo Instituto,60.083.505/8300-33,Maceió,AL,contato296@escola.com.br,19,2022-06-09,2024-11-08
+234,Macedo Escola,54.216.894/2104-47,Vitória,ES,contato297@escola.com.br,14,2022-06-25,2025-05-14
+235,Cirino Colégio,89.856.257/5326-03,Recife,PE,contato298@escola.com.br,16,2022-11-21,2024-06-27
+236,da Cunha - ME,32309821506489,Campo Grande,MS,contato299@escola.com.br,11,2023-06-01,2024-10-27
+237,Azevedo - ME,09.010.016/7618-47,Maceió,AL,contato300@escola.com.br,20,2022-01-09,2023-12-04
+238,Barbosa Escola,23046184992618,Rio de Janeiro,RJ,contato301@escola.com.br,5,2022-04-07,2024-12-03
+239,Barros Centro Educacional,42.087.375/3001-19,Natal,RN,contato303@escola.com.br,18,2022-02-08,2024-08-17
+240,Campos Centro Educacional,72.181.143/7447-01,Londrina,PR,contato304@escola.com.br,11,2023-03-15,2024-02-23
+241,Vasconcelos Colégio,20.455.611/0022-55,Olinda,PE,contato305@escola.com.br,17,2023-05-17,2025-04-15
+242,Pastor Centro Educacional,62.120.216/9797-29,Cuiabá,MT,contato307@escola.com.br,16,2023-06-26,2024-12-05
+243,Pimenta e Filhos,08.993.588/9163-75,Vitória,ES,contato309@escola.com.br,19,2023-03-24,2025-07-07
+244,Teixeira Escola,62.890.028/7721-75,Fortaleza,CE,contato310@escola.com.br,17,2023-02-02,2023-09-01
+245,da Luz Ribeiro S/A,35.408.386/6317-79,Campo Grande,MS,contato311@escola.com.br,4,2022-11-03,2025-05-09
+246,Castro S/A,01.994.883/7550-37,Natal,RN,contato313@escola.com.br,4,2022-12-09,2024-10-31
+247,Machado,58 997 571 1305 54,Salvador,BA,contato314@escola.com.br,12,2023-06-11,2024-04-02
+248,Barbosa Instituto,21 699 586 6934 65,Juiz de Fora,MG,contato318@escola.com.br,2,2022-09-21,2023-10-11
+249,Lima Centro Educacional,94522885158799,Anápolis,GO,contato320@escola.com.br,2,2023-04-22,2025-03-15
+250,QA 001,29362584040933,São Paulo,SP,,1,2022-01-10,2022-01-10
+251,ESCOLA DE HOMOLOGAÇÃO,73260808287238,São Paulo,SP,,1,2022-01-10,2022-01-10
+252,TESTE SISTEMA,85656654862026,São Paulo,SP,,1,2022-01-10,2022-01-10
+253,ESCOLA PILOTO QA,36958000489168,São Paulo,SP,,1,2022-01-10,2022-01-10

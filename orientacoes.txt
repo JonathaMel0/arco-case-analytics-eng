@@ -1,0 +1,30 @@
+
+Mensagem 1:
+
+Você passou pra próxima etapa do processo seletivo — a etapa técnica — e o primeiro passo é um case que você resolve em casa, no formato de RFC (design doc).
+Em anexo vai um zip com tudo que você precisa pra começar. Quando descompactar, você vai encontrar:
+README.md— o briefing do case, com o contexto da Arco, as perguntas de negócio que precisam ser respondidas, o que esperamos como entrega e instruções de setup do ambiente. Comece por aqui.
+guidelines/— os guidelines de modelagem do nosso time de dados. Esperamos que sua RFC dialogue com eles (citando, aplicando ou justificando desvios).
+data/— uma base DuckDB pronta para uso (case.duckdb) com os dados brutos dos cinco sistemas que você vai analisar, mais os CSVs originais e o script de carga.
+guia-dbeaver.md — referência opcional, caso queira explorar os dados via GUI.
+Alguns pontos importantes:
+Prazo: 7 dias corridos a partir do recebimento desse material.
+Entrega:um documento (RFC / design doc) em qualquer formato legível (Google Docs, Notion, Markdown, PDF, .docx). O foco é o pensamento, não código — você não precisa implementar nada, só descrever a proposta de modelagem.
+Uso de IA: permitido e bem-vindo. O que avaliamos na etapa seguinte é seu entendimento e capacidade de defender as decisões, não a capacidade de produzir o doc de cabeça.
+Dúvidas: dúvidas sobre contexto de negócio podem ser enviadas por aqui e serão respondidas. Dúvidas sobre como modelar ou o que fazer com os dados fazem parte da avaliação — esperamos que você tome essas decisões de forma autônoma e as defenda depois.
+Se sua RFC passar na avaliação, marcamos uma apresentação ao vivo (~40-50 min). Depois dessa, há ainda uma sessão de live coding antes de fecharmos o processo técnico.
+
+
+Mensagem 2:
+A próxima etapa é um case técnico assíncrono. 
+Você recebeu um arquivo com o contexto do problema e perguntas de negócio, os dados e os guidelines de modelagem do time de Analytics Engineering da Arco.
+Sua entrega deve ser um documento (RFC ou design doc) descrevendo sua proposta de modelagem analítica que responda às perguntas de negócio do case, de forma que outra pessoa do time consiga entender, criticar e implementar a partir dele.
+Maiores detalhes sobre os dados, expectativas do documento e perguntas a serem respondidas estão no arquivo em anexo, caso exista alguma dúvida sobre o contexto de negócio, nos avise.
+Prazo para entrega: 7 dias corridos a partir do recebimento deste material.
+
+Pontos que serão avaliados na etapa:
+* Clareza de comunicação escrita
+* Exploração dos dados para entendimento de negócio
+* Como pondera alternativas, escopo e decisões tomadas
+* Visão de produção e sustentação da solução proposta
+* Uso dos guidelines indicados

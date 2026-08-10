@@ -1,0 +1,481 @@
+id,name,email,phone,organization_id,role,is_active,created_at,updated_at
+1,João Guilherme Vasconcelos,contato1@escola.com.br,+55 (081) 6650 4427,172,end-user,true,2022-09-15 00:00:00,2025-12-29 00:00:00
+2,Samuel Costa,contato2@escola.com.br,0800-627-1286,270,end-user,false,2023-10-29 00:00:00,2024-06-28 00:00:00
+3,Cauê Macedo,contato3@escola.com.br,+55 71 1011-9470,103,end-user,true,2023-08-23 00:00:00,2025-01-19 00:00:00
+4,Clarice Rezende,contato4@escola.com.br,+55 (011) 0642 5690,,end-user,true,2022-10-04 00:00:00,2024-10-18 00:00:00
+5,Rebeca Mendes,contato5@escola.com.br,(021) 6183-0671,238,end-user,true,2022-03-08 00:00:00,2025-09-25 00:00:00
+6,Zoe Fogaça,contato6@escola.com.br,(071) 4601 5851,95,end-user,false,2023-04-23 00:00:00,2024-01-12 00:00:00
+7,Lavínia Ramos,contato7@escola.com.br,+55 (081) 2806-3461,100,end-user,true,2022-10-21 00:00:00,2024-06-02 00:00:00
+8,Maria Alice Mendonça,contato8@escola.com.br,+55 21 7320 3093,222,end-user,true,2022-07-08 00:00:00,2024-01-24 00:00:00
+9,Maria Julia Azevedo,contato9@escola.com.br,71 4787-0050,14,end-user,true,2022-11-28 00:00:00,2025-11-26 00:00:00
+10,Sr. Nathan Campos,contato10@escola.com.br,+55 11 8782-9310,112,end-user,false,2022-10-21 00:00:00,2024-06-05 00:00:00
+11,Srta. Rebeca Rezende,contato11@escola.com.br,+55 (031) 7903 2020,54,end-user,true,2022-10-18 00:00:00,2024-03-11 00:00:00
+12,Calebe Marques,contato12@escola.com.br,0800-291-1179,94,end-user,false,2022-02-28 00:00:00,2025-02-12 00:00:00
+13,Hellena Azevedo,contato13@escola.com.br,+55 (081) 6565-1982,210,end-user,false,2022-09-08 00:00:00,2025-05-08 00:00:00
+14,Sr. Augusto Pastor,contato14@escola.com.br,+55 (051) 5114-2625,78,end-user,true,2023-08-16 00:00:00,2024-09-05 00:00:00
+15,Eloah Macedo,contato15@escola.com.br,+55 51 9021 9620,248,end-user,true,2022-10-24 00:00:00,2025-01-09 00:00:00
+16,Anna Liz Abreu,contato16@escola.com.br,+55 (011) 2194 6723,164,end-user,true,2023-08-06 00:00:00,2025-12-27 00:00:00
+17,João Gabriel Moreira,contato17@escola.com.br,(041) 6329-0927,36,end-user,true,2022-11-12 00:00:00,2025-10-21 00:00:00
+18,Aurora Pires,contato18@escola.com.br,(031) 5608 3318,,end-user,true,2023-06-29 00:00:00,2025-01-11 00:00:00
+19,Luiz Miguel Teixeira,contato19@escola.com.br,71 8373-4031,,end-user,false,2023-02-03 00:00:00,2024-01-14 00:00:00
+20,Renan Monteiro,contato20@escola.com.br,+55 (051) 2005-4364,,end-user,true,2023-10-28 00:00:00,2024-05-25 00:00:00
+21,Dr. Augusto Caldeira,contato21@escola.com.br,+55 (071) 8220 7811,87,end-user,true,2023-07-30 00:00:00,2024-01-15 00:00:00
+22,Pedro Miguel Pastor,contato22@escola.com.br,0800 563 5315,163,end-user,true,2023-06-10 00:00:00,2024-04-21 00:00:00
+23,Carlos Eduardo da Costa,contato23@escola.com.br,81 3631 7970,176,end-user,true,2023-01-16 00:00:00,2024-10-02 00:00:00
+24,Clara Cunha,contato24@escola.com.br,0800-726-5273,,end-user,true,2023-08-15 00:00:00,2025-01-20 00:00:00
+25,Maria Alice da Mata,contato25@escola.com.br,+55 (081) 5209-0421,60,end-user,true,2022-02-01 00:00:00,2024-10-05 00:00:00
+26,Natália Leão,contato26@escola.com.br,+55 (041) 5349-2929,52,end-user,true,2023-10-13 00:00:00,2024-07-19 00:00:00
+27,Heloísa Borges,contato27@escola.com.br,81 8739 7740,8,end-user,true,2023-05-16 00:00:00,2025-03-02 00:00:00
+28,Sra. Isadora da Cruz,contato28@escola.com.br,(061) 6939 2906,69,end-user,true,2022-10-06 00:00:00,2025-10-22 00:00:00
+29,Asafe Melo,contato29@escola.com.br,21 0686-7177,301,end-user,true,2022-01-26 00:00:00,2025-02-15 00:00:00
+30,Bryan Novais,contato30@escola.com.br,+55 (021) 6325 4310,167,end-user,false,2023-06-10 00:00:00,2025-06-23 00:00:00
+31,Lorena Castro,contato31@escola.com.br,(051) 9907-7262,289,end-user,false,2022-05-14 00:00:00,2024-07-10 00:00:00
+32,Dr. Alexandre Pires,contato32@escola.com.br,+55 11 6580 4649,116,end-user,true,2023-09-21 00:00:00,2025-12-10 00:00:00
+33,Giovanna Viana,contato33@escola.com.br,+55 21 9508 5016,267,end-user,true,2022-08-27 00:00:00,2024-02-15 00:00:00
+34,Dr. Asafe Fonseca,contato34@escola.com.br,21 2818 3253,102,end-user,true,2023-08-03 00:00:00,2025-08-27 00:00:00
+35,Bruna Rezende,contato35@escola.com.br,(081) 9335-5486,129,end-user,true,2023-06-12 00:00:00,2025-07-01 00:00:00
+36,Benjamim Azevedo,contato36@escola.com.br,31 5778 8178,284,end-user,true,2023-07-06 00:00:00,2024-04-21 00:00:00
+37,Yasmin da Rocha,contato37@escola.com.br,(041) 9513-7116,56,end-user,false,2023-06-19 00:00:00,2025-07-26 00:00:00
+38,João Pedro Barbosa,contato38@escola.com.br,+55 51 2412 7238,216,end-user,true,2023-05-01 00:00:00,2024-05-17 00:00:00
+39,Alícia da Rocha,contato39@escola.com.br,84 8275 6704,13,end-user,true,2022-07-09 00:00:00,2025-04-14 00:00:00
+40,Benício Almeida,contato40@escola.com.br,+55 31 8569-5579,247,end-user,true,2022-03-07 00:00:00,2025-05-29 00:00:00
+41,Vitória Novaes,contato41@escola.com.br,(031) 7492-4243,203,end-user,true,2022-09-01 00:00:00,2025-12-21 00:00:00
+42,Maria Fernanda da Paz,contato42@escola.com.br,+55 (071) 2547 2928,,end-user,true,2023-06-01 00:00:00,2025-01-09 00:00:00
+43,Fernando Cavalcanti,contato43@escola.com.br,+55 (021) 2310-5927,170,end-user,true,2022-04-12 00:00:00,2024-02-11 00:00:00
+44,Léo Cirino,contato44@escola.com.br,+55 (084) 8055-2578,169,end-user,true,2023-06-21 00:00:00,2024-07-02 00:00:00
+45,Vitor da Rosa,contato45@escola.com.br,+55 71 0672 7520,104,end-user,false,2023-03-07 00:00:00,2024-10-07 00:00:00
+46,Dra. Sofia Farias,contato46@escola.com.br,(021) 7492 9751,144,end-user,true,2023-08-05 00:00:00,2025-12-25 00:00:00
+47,Sra. Ana Cecília Carvalho,contato47@escola.com.br,81 1406-9375,284,end-user,true,2023-12-03 00:00:00,2025-03-27 00:00:00
+48,Luan Araújo,contato48@escola.com.br,0500-398-3430,268,end-user,true,2022-05-01 00:00:00,2024-05-03 00:00:00
+49,Vitor Gabriel Machado,contato49@escola.com.br,+55 31 8637 5998,63,end-user,true,2022-12-24 00:00:00,2024-03-03 00:00:00
+50,Luiz Miguel Gonçalves,contato50@escola.com.br,+55 (011) 6565-0455,255,end-user,true,2022-10-11 00:00:00,2025-05-29 00:00:00
+51,Pietro Novais,contato51@escola.com.br,+55 31 3767 4266,33,end-user,false,2023-12-02 00:00:00,2024-03-22 00:00:00
+52,Caio Casa Grande,contato52@escola.com.br,+55 (084) 4785-1961,149,end-user,true,2022-03-18 00:00:00,2024-12-15 00:00:00
+53,Nicolas Porto,contato53@escola.com.br,+55 81 6287-9232,41,end-user,true,2022-04-05 00:00:00,2024-07-22 00:00:00
+54,Lavínia Novaes,contato54@escola.com.br,(084) 0494-7873,5,end-user,true,2023-09-09 00:00:00,2025-10-17 00:00:00
+55,Alexandre Cassiano,contato55@escola.com.br,+55 71 4714-6273,301,end-user,true,2023-03-13 00:00:00,2024-07-21 00:00:00
+56,Dante Teixeira,contato56@escola.com.br,+55 84 7195-9796,,end-user,true,2022-02-08 00:00:00,2024-03-06 00:00:00
+57,Renan Sales,contato57@escola.com.br,+55 71 5890 4290,,end-user,true,2022-08-10 00:00:00,2024-10-25 00:00:00
+58,Liam Martins,contato58@escola.com.br,+55 84 5204 5650,263,end-user,true,2023-04-17 00:00:00,2024-08-02 00:00:00
+59,João Vitor Moura,contato59@escola.com.br,+55 11 8321 9285,125,end-user,true,2023-01-30 00:00:00,2024-12-13 00:00:00
+60,Dr. João Gabriel Rodrigues,contato60@escola.com.br,21 1895 2028,,end-user,true,2022-06-03 00:00:00,2024-05-25 00:00:00
+61,Marcelo Vasconcelos,contato61@escola.com.br,(084) 6521-3283,164,end-user,true,2023-01-06 00:00:00,2025-08-08 00:00:00
+62,Vinicius Nascimento,contato62@escola.com.br,81 1671-1207,200,end-user,true,2023-03-06 00:00:00,2024-12-16 00:00:00
+63,Dr. Luiz Miguel Carvalho,contato63@escola.com.br,(031) 9852-4013,246,end-user,true,2022-12-17 00:00:00,2024-07-31 00:00:00
+64,Diego Sales,contato64@escola.com.br,+55 31 4232-1611,32,end-user,true,2023-08-21 00:00:00,2024-05-24 00:00:00
+65,Rodrigo Sá,contato65@escola.com.br,(021) 0310-8907,196,end-user,true,2022-04-28 00:00:00,2024-10-12 00:00:00
+66,José Aparecida,contato66@escola.com.br,+55 (084) 4011 9393,56,end-user,true,2022-06-13 00:00:00,2025-05-26 00:00:00
+67,Luiz Fernando Alves,contato67@escola.com.br,+55 31 2495 5289,28,end-user,true,2023-09-26 00:00:00,2024-06-12 00:00:00
+68,Thiago Nunes,contato68@escola.com.br,+55 (084) 1908 3342,269,end-user,true,2023-07-07 00:00:00,2025-05-31 00:00:00
+69,Alana Silveira,contato69@escola.com.br,+55 41 3875 9271,30,end-user,false,2023-07-22 00:00:00,2024-09-25 00:00:00
+70,Luiz Gustavo Garcia,contato70@escola.com.br,(011) 3836-1517,77,end-user,true,2022-09-27 00:00:00,2024-06-22 00:00:00
+71,Vicente Carvalho,contato71@escola.com.br,11 5480-1571,95,end-user,true,2023-08-25 00:00:00,2024-11-01 00:00:00
+72,Larissa Marques,contato72@escola.com.br,0300-473-8646,166,end-user,true,2022-07-03 00:00:00,2024-02-29 00:00:00
+73,Bernardo Melo,contato73@escola.com.br,31 2071 6781,201,end-user,true,2022-01-02 00:00:00,2025-08-01 00:00:00
+74,Diego Gonçalves,contato74@escola.com.br,71 9121 5353,172,end-user,true,2022-02-26 00:00:00,2024-05-03 00:00:00
+75,Maria Luiza Campos,contato75@escola.com.br,+55 31 6749-9465,,end-user,true,2023-06-30 00:00:00,2025-08-02 00:00:00
+76,Maria Luiza Mendonça,contato76@escola.com.br,31 4271-1477,72,end-user,true,2023-12-28 00:00:00,2024-08-26 00:00:00
+77,Davi Luiz Alves,contato77@escola.com.br,+55 41 0170 2695,186,end-user,true,2022-11-08 00:00:00,2025-07-04 00:00:00
+78,Kevin Pinto,contato78@escola.com.br,0900-118-7734,81,end-user,true,2023-02-08 00:00:00,2025-07-18 00:00:00
+79,Sara Mendonça,contato79@escola.com.br,21 4858-8006,228,end-user,true,2022-06-20 00:00:00,2025-02-22 00:00:00
+80,Matheus Machado,contato80@escola.com.br,(051) 6770 0284,92,end-user,true,2022-03-19 00:00:00,2025-07-10 00:00:00
+81,Srta. Rebeca Lopes,contato81@escola.com.br,+55 84 4671 9788,173,end-user,true,2022-01-25 00:00:00,2024-07-11 00:00:00
+82,Olivia Melo,contato82@escola.com.br,84 2806-4796,145,end-user,true,2022-04-10 00:00:00,2025-04-26 00:00:00
+83,Maria Vargas,contato83@escola.com.br,(011) 5009 0255,134,end-user,true,2023-10-12 00:00:00,2024-10-14 00:00:00
+84,Dra. Amanda Teixeira,contato84@escola.com.br,(081) 6165 5650,,end-user,true,2023-09-13 00:00:00,2025-01-07 00:00:00
+85,Isabelly da Cruz,contato85@escola.com.br,+55 41 4911-4152,288,end-user,true,2023-06-23 00:00:00,2025-04-23 00:00:00
+86,Vitor Gabriel Duarte,contato86@escola.com.br,+55 (051) 7698 6407,186,end-user,true,2022-05-01 00:00:00,2024-05-05 00:00:00
+87,Alícia Dias,contato87@escola.com.br,41 9659 1713,117,end-user,true,2022-08-01 00:00:00,2024-07-29 00:00:00
+88,Dr. Theodoro Teixeira,contato88@escola.com.br,(081) 2945 6371,193,end-user,true,2022-08-06 00:00:00,2024-02-06 00:00:00
+89,Hadassa da Paz,contato89@escola.com.br,+55 71 0496-3919,276,end-user,true,2023-05-26 00:00:00,2024-10-30 00:00:00
+90,Lucca da Mata,contato90@escola.com.br,+55 (084) 9876 3514,74,end-user,false,2022-12-08 00:00:00,2024-08-19 00:00:00
+91,Letícia Lopes,contato91@escola.com.br,71 5366-4987,304,end-user,true,2023-12-18 00:00:00,2024-06-09 00:00:00
+92,Emilly Almeida,contato92@escola.com.br,41 2973-7489,146,end-user,true,2023-03-07 00:00:00,2024-03-06 00:00:00
+93,Ana Liz Moreira,contato93@escola.com.br,+55 (081) 5723-2466,88,end-user,true,2023-10-13 00:00:00,2025-05-28 00:00:00
+94,Sr. Gustavo Jesus,contato94@escola.com.br,+55 81 4249-3631,9,end-user,true,2023-02-05 00:00:00,2024-05-23 00:00:00
+95,Gael Alves,contato95@escola.com.br,+55 51 4778 6603,170,end-user,true,2023-04-01 00:00:00,2024-03-01 00:00:00
+96,João Gabriel Carvalho,contato96@escola.com.br,+55 (041) 4482 0700,208,end-user,true,2023-07-11 00:00:00,2025-08-07 00:00:00
+97,Levi Pereira,contato97@escola.com.br,(031) 1651 6231,292,end-user,true,2022-02-21 00:00:00,2024-10-22 00:00:00
+98,Sarah Campos,contato98@escola.com.br,41 9847-1391,19,end-user,true,2022-10-13 00:00:00,2025-08-20 00:00:00
+99,Dr. Mathias Souza,contato99@escola.com.br,+55 41 6321-2347,92,end-user,true,2022-01-29 00:00:00,2024-12-31 00:00:00
+100,Jade Pastor,contato100@escola.com.br,+55 (081) 7851 5867,266,end-user,true,2023-06-13 00:00:00,2024-01-02 00:00:00
+101,Isadora da Mota,contato101@escola.com.br,+55 (011) 5754-0900,83,end-user,true,2022-07-28 00:00:00,2024-03-25 00:00:00
+102,Dra. Isabella da Cunha,contato102@escola.com.br,81 6451-8376,254,end-user,true,2022-09-20 00:00:00,2025-09-07 00:00:00
+103,Matteo da Cunha,contato103@escola.com.br,(031) 1343 2756,90,end-user,true,2023-04-06 00:00:00,2025-07-08 00:00:00
+104,João Guilherme Barros,contato104@escola.com.br,(084) 7656-1248,236,end-user,true,2022-11-21 00:00:00,2025-03-10 00:00:00
+105,Luiz Gustavo Leão,contato105@escola.com.br,0500-857-0027,200,end-user,false,2023-09-03 00:00:00,2024-01-10 00:00:00
+106,Catarina Abreu,contato106@escola.com.br,71 3459 1123,188,end-user,true,2022-12-08 00:00:00,2024-01-31 00:00:00
+107,Caroline Peixoto,contato107@escola.com.br,81 5772 4295,28,end-user,true,2022-07-23 00:00:00,2025-03-03 00:00:00
+108,Gael Henrique Barros,contato108@escola.com.br,84 5266 9300,244,end-user,false,2023-12-12 00:00:00,2025-07-28 00:00:00
+109,Heloísa Borges,contato109@escola.com.br,(061) 3420-6969,188,end-user,false,2022-08-17 00:00:00,2024-05-02 00:00:00
+110,Dom Borges,contato110@escola.com.br,31 2910 8677,,end-user,true,2023-04-08 00:00:00,2024-04-10 00:00:00
+111,Henry Gabriel Silva,contato111@escola.com.br,+55 (084) 3447-6263,,end-user,true,2022-03-10 00:00:00,2025-11-08 00:00:00
+112,Helena da Paz,contato112@escola.com.br,+55 (071) 6262-0443,,end-user,true,2022-02-14 00:00:00,2025-06-10 00:00:00
+113,Milena da Cruz,contato113@escola.com.br,31 9710 7256,59,end-user,true,2022-07-08 00:00:00,2025-05-10 00:00:00
+114,Hadassa Silva,contato114@escola.com.br,51 6941 1800,203,end-user,true,2023-08-08 00:00:00,2024-07-02 00:00:00
+115,Sr. Ravy Fogaça,contato115@escola.com.br,0500-900-4896,287,end-user,true,2022-04-22 00:00:00,2024-02-26 00:00:00
+116,Miguel Rios,contato116@escola.com.br,31 2809 2428,77,end-user,true,2022-03-07 00:00:00,2024-03-26 00:00:00
+117,Maitê Martins,contato117@escola.com.br,+55 81 1586 2415,,end-user,false,2022-07-22 00:00:00,2025-12-05 00:00:00
+118,Davi Lucas Monteiro,contato118@escola.com.br,+55 84 5644-9485,151,end-user,true,2022-02-13 00:00:00,2025-03-01 00:00:00
+119,Eloah Dias,contato119@escola.com.br,(084) 2870-3203,110,end-user,true,2023-06-24 00:00:00,2024-10-02 00:00:00
+120,Arthur Miguel Melo,contato120@escola.com.br,+55 71 2761-7075,259,end-user,true,2022-07-27 00:00:00,2024-09-15 00:00:00
+121,Dra. Raquel Marques,contato121@escola.com.br,11 1215-1342,1,end-user,true,2023-05-31 00:00:00,2025-06-13 00:00:00
+122,Thomas da Mata,contato122@escola.com.br,0300 939 0892,4,end-user,true,2022-09-18 00:00:00,2025-04-03 00:00:00
+123,Ana Vitória da Cruz,contato123@escola.com.br,11 1504-1659,108,end-user,true,2023-08-31 00:00:00,2025-02-27 00:00:00
+124,Lorenzo Cassiano,contato124@escola.com.br,+55 (041) 1777 4905,37,end-user,true,2022-11-02 00:00:00,2024-10-26 00:00:00
+125,Rael Duarte,contato125@escola.com.br,0300 230 4501,164,end-user,true,2022-03-02 00:00:00,2025-03-30 00:00:00
+126,Maria Helena Borges,contato126@escola.com.br,71 4236 1032,145,end-user,true,2023-11-29 00:00:00,2025-04-11 00:00:00
+127,Maria Luiza da Paz,contato127@escola.com.br,+55 (021) 1476-4925,180,end-user,true,2023-11-25 00:00:00,2025-04-06 00:00:00
+128,Aylla Freitas,contato128@escola.com.br,31 3776-7499,296,end-user,true,2023-02-09 00:00:00,2024-12-25 00:00:00
+129,Ayla Sá,contato129@escola.com.br,(011) 5926-6108,52,end-user,true,2022-02-14 00:00:00,2024-08-30 00:00:00
+130,Dr. Henry Gabriel Ramos,contato130@escola.com.br,+55 (021) 7881-4761,67,end-user,true,2022-06-02 00:00:00,2025-07-10 00:00:00
+131,Letícia Cassiano,contato131@escola.com.br,+55 81 4386 4908,107,end-user,true,2023-12-08 00:00:00,2024-11-02 00:00:00
+132,Augusto Moraes,contato132@escola.com.br,+55 51 8661 7945,,end-user,true,2023-03-02 00:00:00,2024-04-24 00:00:00
+133,Bruno Vargas,contato133@escola.com.br,21 0172-2601,219,end-user,true,2023-10-09 00:00:00,2025-03-22 00:00:00
+134,Letícia Dias,contato134@escola.com.br,0900 779 4523,79,end-user,true,2022-05-18 00:00:00,2024-12-28 00:00:00
+135,Bruno Souza,contato135@escola.com.br,0500-416-8006,236,end-user,true,2022-08-28 00:00:00,2025-09-27 00:00:00
+136,Anthony Gabriel Cavalcante,contato136@escola.com.br,(081) 7697-4995,,end-user,true,2022-12-28 00:00:00,2024-09-14 00:00:00
+137,Dra. Maria Laura da Rosa,contato137@escola.com.br,+55 31 2203 1030,225,end-user,true,2023-06-13 00:00:00,2024-03-10 00:00:00
+138,Rodrigo Rezende,contato138@escola.com.br,+55 (011) 3683-1472,189,end-user,true,2022-05-20 00:00:00,2025-10-28 00:00:00
+139,Mariana Almeida,contato139@escola.com.br,+55 61 2277 7079,34,end-user,true,2023-10-13 00:00:00,2025-08-15 00:00:00
+140,Guilherme da Rocha,contato140@escola.com.br,0300 605 0166,280,end-user,true,2022-03-05 00:00:00,2024-06-19 00:00:00
+141,Lavínia Andrade,contato141@escola.com.br,(084) 6789-9730,,end-user,true,2023-07-05 00:00:00,2025-03-06 00:00:00
+142,Allana Lima,contato142@escola.com.br,0500 581 4671,276,end-user,true,2022-09-26 00:00:00,2025-08-11 00:00:00
+143,Manuella Machado,contato143@escola.com.br,(021) 0243-7573,69,end-user,true,2022-12-11 00:00:00,2024-03-29 00:00:00
+144,Hellena Pastor,contato144@escola.com.br,(081) 9724 6657,293,end-user,true,2023-05-04 00:00:00,2025-10-05 00:00:00
+145,Gustavo Henrique da Paz,contato145@escola.com.br,+55 31 7223 2971,114,end-user,true,2023-10-16 00:00:00,2024-11-30 00:00:00
+146,Sabrina da Rosa,contato146@escola.com.br,+55 41 3800-5452,177,end-user,true,2022-06-17 00:00:00,2024-03-04 00:00:00
+147,Theodoro Andrade,contato147@escola.com.br,+55 (084) 5619 3183,35,end-user,true,2022-12-01 00:00:00,2024-03-18 00:00:00
+148,Joana Fernandes,contato148@escola.com.br,11 0842 8910,230,end-user,false,2023-08-03 00:00:00,2024-05-21 00:00:00
+149,Natália Sá,contato149@escola.com.br,+55 61 1991 8081,184,end-user,true,2023-01-15 00:00:00,2025-06-07 00:00:00
+150,Dante Costela,contato150@escola.com.br,21 2478 7125,48,end-user,true,2022-09-10 00:00:00,2024-05-06 00:00:00
+151,Sr. Davi Costa,contato151@escola.com.br,(031) 6037-5482,158,end-user,true,2023-04-24 00:00:00,2025-03-16 00:00:00
+152,João Felipe Freitas,contato152@escola.com.br,84 5328 6326,12,end-user,true,2022-04-22 00:00:00,2024-10-23 00:00:00
+153,Maria Luísa Marques,contato153@escola.com.br,41 5072-0811,140,end-user,false,2022-09-08 00:00:00,2024-06-06 00:00:00
+154,Dr. Murilo Vargas,contato154@escola.com.br,+55 (041) 6060-2908,176,end-user,true,2023-06-10 00:00:00,2025-04-13 00:00:00
+155,Otto Guerra,contato155@escola.com.br,81 4550-4892,214,end-user,false,2023-01-07 00:00:00,2024-12-29 00:00:00
+156,Sra. Melissa Ramos,contato156@escola.com.br,+55 (084) 8997-5634,134,end-user,true,2023-10-16 00:00:00,2024-09-14 00:00:00
+157,Arthur Miguel Nascimento,contato157@escola.com.br,(071) 6288 4318,79,end-user,true,2023-01-19 00:00:00,2024-05-17 00:00:00
+158,Luana Moreira,contato158@escola.com.br,(081) 2008 9434,121,end-user,true,2023-05-09 00:00:00,2025-06-11 00:00:00
+159,Sra. Sofia Camargo,contato159@escola.com.br,+55 (081) 5485 1017,,end-user,true,2022-12-26 00:00:00,2025-09-01 00:00:00
+160,André Marques,contato160@escola.com.br,(081) 3998 9354,,end-user,true,2022-01-13 00:00:00,2024-04-09 00:00:00
+161,Davi Miguel Silva,contato161@escola.com.br,41 8315 8935,73,end-user,true,2022-12-12 00:00:00,2024-10-14 00:00:00
+162,Beatriz Casa Grande,contato162@escola.com.br,(011) 6110-6273,70,end-user,true,2022-11-05 00:00:00,2024-11-19 00:00:00
+163,Ana Vitória Freitas,contato163@escola.com.br,51 6988 6497,93,end-user,true,2023-01-29 00:00:00,2025-11-05 00:00:00
+164,Mariana Macedo,contato164@escola.com.br,(084) 6228-2772,72,end-user,true,2022-01-21 00:00:00,2025-01-26 00:00:00
+165,Dra. Vitória Campos,contato165@escola.com.br,+55 11 7702-8519,145,end-user,false,2022-05-01 00:00:00,2025-12-20 00:00:00
+166,Brenda Campos,contato166@escola.com.br,31 9408 2154,21,end-user,true,2023-02-15 00:00:00,2024-01-29 00:00:00
+167,Dr. Juan Mendonça,contato167@escola.com.br,+55 (041) 2296 0443,282,end-user,true,2022-08-01 00:00:00,2025-07-11 00:00:00
+168,Samuel Abreu,contato168@escola.com.br,+55 71 8510 6794,,end-user,false,2022-12-06 00:00:00,2025-09-19 00:00:00
+169,Milena Fernandes,contato169@escola.com.br,41 7922 8777,,end-user,true,2022-02-02 00:00:00,2024-02-05 00:00:00
+170,Luan Borges,contato170@escola.com.br,0900-966-3658,90,end-user,false,2022-11-19 00:00:00,2024-02-26 00:00:00
+171,Pedro Miguel Sousa,contato171@escola.com.br,+55 84 1209-4818,83,end-user,true,2023-10-12 00:00:00,2025-03-22 00:00:00
+172,Gael Pinto,contato172@escola.com.br,71 9098-3780,135,end-user,true,2023-04-11 00:00:00,2024-01-01 00:00:00
+173,Vitor Cirino,contato173@escola.com.br,+55 (031) 4339 7189,21,end-user,true,2022-11-19 00:00:00,2025-07-13 00:00:00
+174,Dr. Augusto Mendonça,contato174@escola.com.br,+55 (031) 5626 0856,242,end-user,false,2022-06-27 00:00:00,2025-09-16 00:00:00
+175,Caleb Camargo,contato175@escola.com.br,+55 41 8242 2412,284,end-user,true,2023-08-22 00:00:00,2025-06-29 00:00:00
+176,Nicolas Rocha,contato176@escola.com.br,+55 (041) 0952-0046,267,end-user,true,2022-07-12 00:00:00,2025-01-03 00:00:00
+177,Liam Casa Grande,contato177@escola.com.br,81 5461 0339,189,end-user,true,2022-03-27 00:00:00,2025-01-09 00:00:00
+178,Isabela Monteiro,contato178@escola.com.br,31 8614-0578,,end-user,true,2022-11-21 00:00:00,2025-09-27 00:00:00
+179,Ana Luiza Mendes,contato179@escola.com.br,+55 (041) 6304 8913,30,end-user,true,2023-02-25 00:00:00,2024-06-07 00:00:00
+180,Carolina da Rosa,contato180@escola.com.br,0300 671 8325,309,end-user,true,2022-11-07 00:00:00,2025-09-26 00:00:00
+181,Eloá Viana,contato181@escola.com.br,+55 51 8687 0079,157,end-user,true,2022-08-28 00:00:00,2025-01-05 00:00:00
+182,Enzo Abreu,contato182@escola.com.br,+55 (081) 7494 6539,307,end-user,true,2023-02-12 00:00:00,2024-06-08 00:00:00
+183,Larissa Aparecida,contato183@escola.com.br,+55 (031) 8914-1612,14,end-user,true,2022-02-25 00:00:00,2024-03-11 00:00:00
+184,Dra. Lara Lopes,contato184@escola.com.br,+55 (084) 9855-4743,170,end-user,true,2023-04-14 00:00:00,2024-08-06 00:00:00
+185,Luna Fernandes,contato185@escola.com.br,+55 (084) 7950-2097,227,end-user,true,2022-10-29 00:00:00,2024-06-03 00:00:00
+186,Anthony Rocha,contato186@escola.com.br,+55 (051) 6876-8118,,end-user,true,2023-10-19 00:00:00,2025-03-06 00:00:00
+187,Pedro Miguel Rocha,contato187@escola.com.br,+55 71 5695 6201,90,end-user,true,2023-12-30 00:00:00,2024-05-22 00:00:00
+188,Maria Eduarda Correia,contato188@escola.com.br,(031) 0304-5319,81,end-user,true,2023-06-16 00:00:00,2025-12-15 00:00:00
+189,Liz Silva,contato189@escola.com.br,+55 21 3750-4793,251,end-user,true,2023-04-06 00:00:00,2025-08-16 00:00:00
+190,Gael Henrique Porto,contato190@escola.com.br,61 1498 7283,,end-user,false,2022-08-10 00:00:00,2025-07-14 00:00:00
+191,Emanuella Azevedo,contato191@escola.com.br,0900 212 4938,156,end-user,true,2023-07-11 00:00:00,2025-02-26 00:00:00
+192,Sra. Evelyn Rocha,contato192@escola.com.br,+55 (031) 8948 7060,193,end-user,true,2022-06-20 00:00:00,2024-10-19 00:00:00
+193,Dr. Nicolas da Mota,contato193@escola.com.br,+55 71 8775 8030,234,end-user,true,2023-11-15 00:00:00,2025-08-07 00:00:00
+194,Otto Nascimento,contato194@escola.com.br,(041) 5063-5190,282,end-user,true,2022-12-28 00:00:00,2024-05-25 00:00:00
+195,Srta. Mariana Barbosa,contato195@escola.com.br,+55 51 3254 1107,7,end-user,true,2023-08-10 00:00:00,2024-04-21 00:00:00
+196,Amanda Pastor,contato196@escola.com.br,(071) 4317 3505,23,end-user,true,2023-08-03 00:00:00,2025-01-01 00:00:00
+197,Isabela Barbosa,contato197@escola.com.br,0300-971-7911,76,end-user,true,2023-04-24 00:00:00,2025-10-15 00:00:00
+198,Arthur Gabriel Garcia,contato198@escola.com.br,(051) 1207 0496,142,end-user,true,2023-12-31 00:00:00,2025-11-20 00:00:00
+199,Cauã Rocha,contato199@escola.com.br,+55 (081) 8046 6196,33,end-user,true,2023-04-26 00:00:00,2024-08-24 00:00:00
+200,Anthony Marques,contato200@escola.com.br,51 7699 1507,33,end-user,true,2023-09-17 00:00:00,2025-12-08 00:00:00
+201,Luísa Pastor,contato201@escola.com.br,+55 (071) 1109-1939,124,end-user,true,2023-12-27 00:00:00,2024-11-29 00:00:00
+202,Thomas da Cunha,contato202@escola.com.br,11 6797 2320,234,end-user,true,2022-01-12 00:00:00,2025-10-26 00:00:00
+203,Davi Lucas das Neves,contato203@escola.com.br,0800 685 4982,209,end-user,true,2023-06-18 00:00:00,2024-08-19 00:00:00
+204,Ravy das Neves,contato204@escola.com.br,0500-545-0892,125,end-user,false,2023-03-14 00:00:00,2025-06-22 00:00:00
+205,Isaac Montenegro,contato205@escola.com.br,84 0653-3315,93,end-user,true,2023-09-05 00:00:00,2025-08-01 00:00:00
+206,Renan Sales,contato206@escola.com.br,(061) 9599-5946,78,end-user,true,2022-05-23 00:00:00,2024-06-05 00:00:00
+207,Sr. Cauã Marques,contato207@escola.com.br,+55 (061) 7303 3793,72,end-user,true,2023-06-19 00:00:00,2024-05-04 00:00:00
+208,Rodrigo Sousa,contato208@escola.com.br,(071) 6362 0501,304,end-user,true,2023-12-26 00:00:00,2024-12-22 00:00:00
+209,Sr. Danilo Casa Grande,contato209@escola.com.br,(021) 7395 0033,20,end-user,true,2022-10-07 00:00:00,2025-07-04 00:00:00
+210,Erick Câmara,contato210@escola.com.br,+55 71 2583-2302,116,end-user,true,2022-03-22 00:00:00,2025-09-13 00:00:00
+211,Carlos Eduardo Almeida,contato211@escola.com.br,+55 84 6153 4735,7,end-user,true,2023-08-11 00:00:00,2025-02-21 00:00:00
+212,Sr. Vinicius Pinto,contato212@escola.com.br,(021) 1122-3386,67,end-user,true,2022-03-07 00:00:00,2024-12-12 00:00:00
+213,Sra. Luiza Peixoto,contato213@escola.com.br,(011) 3099-3842,107,end-user,true,2022-10-22 00:00:00,2025-03-17 00:00:00
+214,Sr. Benjamim Pires,contato214@escola.com.br,+55 84 2897-3179,243,end-user,true,2022-09-06 00:00:00,2024-01-17 00:00:00
+215,Enzo Moraes,contato215@escola.com.br,51 8578 7255,238,end-user,true,2023-05-19 00:00:00,2024-11-19 00:00:00
+216,Rafaela Silva,contato216@escola.com.br,11 7496-9033,1,end-user,true,2023-12-07 00:00:00,2024-10-12 00:00:00
+217,Rael da Costa,contato217@escola.com.br,61 3466 9254,184,end-user,true,2022-06-01 00:00:00,2024-06-25 00:00:00
+218,Antonella Carvalho,contato218@escola.com.br,+55 21 4785 3907,222,end-user,true,2022-04-27 00:00:00,2024-10-23 00:00:00
+219,Maitê Lima,contato219@escola.com.br,(041) 7665-7546,251,end-user,true,2022-07-07 00:00:00,2025-07-05 00:00:00
+220,Felipe Macedo,contato220@escola.com.br,+55 31 4151-4888,120,end-user,true,2023-05-22 00:00:00,2025-10-23 00:00:00
+221,Anna Liz Viana,contato221@escola.com.br,+55 84 3111-5083,113,end-user,true,2022-11-29 00:00:00,2025-07-31 00:00:00
+222,Sr. Lucas da Cunha,contato222@escola.com.br,(031) 4392 8404,230,end-user,true,2023-12-30 00:00:00,2024-05-28 00:00:00
+223,Luiz Felipe Viana,contato223@escola.com.br,71 6907 8263,188,end-user,false,2022-07-05 00:00:00,2024-06-24 00:00:00
+224,Gustavo Henrique Melo,contato224@escola.com.br,+55 31 8987-7515,232,end-user,false,2023-05-17 00:00:00,2024-03-25 00:00:00
+225,Paulo Vargas,contato225@escola.com.br,84 3778 0529,22,end-user,true,2023-11-10 00:00:00,2025-07-25 00:00:00
+226,Leandro Sousa,contato226@escola.com.br,+55 (021) 7553 6668,165,end-user,false,2022-12-15 00:00:00,2025-12-17 00:00:00
+227,Luan Pastor,contato227@escola.com.br,+55 (031) 9022 5999,256,end-user,true,2022-06-17 00:00:00,2024-01-20 00:00:00
+228,Maria Júlia Garcia,contato228@escola.com.br,+55 (084) 6186-3715,241,end-user,true,2022-07-24 00:00:00,2025-09-06 00:00:00
+229,Milena Porto,contato229@escola.com.br,(031) 1218 2097,244,end-user,true,2023-09-25 00:00:00,2025-05-24 00:00:00
+230,Francisco Costa,contato230@escola.com.br,+55 (084) 6433 4817,270,end-user,true,2023-01-01 00:00:00,2024-02-28 00:00:00
+231,Léo Moreira,contato231@escola.com.br,+55 (021) 2566 2128,5,end-user,true,2022-10-17 00:00:00,2024-02-05 00:00:00
+232,Pietra Souza,contato232@escola.com.br,+55 (084) 6323 4672,292,end-user,true,2023-10-23 00:00:00,2025-08-19 00:00:00
+233,Luana Pastor,contato233@escola.com.br,+55 (081) 8743-0271,134,end-user,true,2022-04-22 00:00:00,2025-02-25 00:00:00
+234,Isadora Moura,contato234@escola.com.br,(071) 9777 9014,262,end-user,true,2023-07-20 00:00:00,2024-09-10 00:00:00
+235,Mirella Ferreira,contato235@escola.com.br,(031) 6926 3296,302,end-user,true,2023-08-16 00:00:00,2025-12-27 00:00:00
+236,Maria Isis Ribeiro,contato236@escola.com.br,+55 (061) 9160-3248,120,end-user,true,2023-12-22 00:00:00,2024-01-21 00:00:00
+237,Bernardo Sampaio,contato237@escola.com.br,+55 11 7681-5118,170,end-user,true,2022-02-08 00:00:00,2024-10-23 00:00:00
+238,Dr. Rael Cavalcante,contato238@escola.com.br,+55 61 3807-0176,307,end-user,true,2023-07-06 00:00:00,2025-05-14 00:00:00
+239,Dr. Gael Gonçalves,contato239@escola.com.br,+55 (051) 0412 5777,2,end-user,false,2022-12-19 00:00:00,2024-04-21 00:00:00
+240,Bryan Novaes,contato240@escola.com.br,+55 51 7274 2209,213,end-user,false,2022-05-08 00:00:00,2024-09-04 00:00:00
+241,Felipe da Rocha,contato241@escola.com.br,+55 71 8621 0427,155,end-user,true,2023-02-12 00:00:00,2025-07-21 00:00:00
+242,Sr. Henrique Silva,contato242@escola.com.br,+55 (051) 8370 8164,291,end-user,true,2023-05-04 00:00:00,2025-08-09 00:00:00
+243,Ana Júlia Peixoto,contato243@escola.com.br,+55 (011) 0633 5331,185,end-user,true,2022-01-07 00:00:00,2025-02-07 00:00:00
+244,Otto Alves,contato244@escola.com.br,+55 (021) 5313 1220,28,end-user,true,2022-04-02 00:00:00,2024-07-25 00:00:00
+245,Sophie Caldeira,contato245@escola.com.br,(061) 5839 3866,119,end-user,true,2022-12-06 00:00:00,2024-02-24 00:00:00
+246,Igor Cunha,contato246@escola.com.br,+55 51 5520 6506,,end-user,true,2023-05-12 00:00:00,2024-04-19 00:00:00
+247,Raul Câmara,contato247@escola.com.br,+55 (084) 4950 1364,299,end-user,true,2023-04-20 00:00:00,2024-05-02 00:00:00
+248,Sara Caldeira,contato248@escola.com.br,61 9241-9562,266,end-user,true,2022-04-16 00:00:00,2024-02-29 00:00:00
+249,Sr. Liam Rios,contato249@escola.com.br,(081) 1509-9768,,end-user,true,2023-11-22 00:00:00,2024-03-29 00:00:00
+250,Isabel Montenegro,contato250@escola.com.br,0900 030 9143,309,end-user,true,2022-04-27 00:00:00,2025-11-25 00:00:00
+251,Sra. Isabelly Pinto,contato251@escola.com.br,+55 21 0257 4326,,end-user,true,2022-04-07 00:00:00,2024-11-29 00:00:00
+252,Arthur Miguel da Costa,contato252@escola.com.br,0300-752-4508,208,end-user,true,2022-11-13 00:00:00,2025-02-16 00:00:00
+253,Laura Sá,contato253@escola.com.br,+55 (041) 3553 3803,88,end-user,true,2023-11-03 00:00:00,2025-03-06 00:00:00
+254,Hellena Pereira,contato254@escola.com.br,41 8527 0171,292,end-user,true,2022-07-11 00:00:00,2025-08-08 00:00:00
+255,Benjamim Porto,contato255@escola.com.br,+55 (011) 3212-9833,4,end-user,false,2023-06-25 00:00:00,2025-11-01 00:00:00
+256,Anna Liz Lima,contato256@escola.com.br,(061) 4233-6293,10,end-user,true,2023-07-22 00:00:00,2024-11-06 00:00:00
+257,João Pedro Oliveira,contato257@escola.com.br,(041) 3471-5662,67,end-user,true,2022-08-11 00:00:00,2025-08-11 00:00:00
+258,Maysa Lima,contato258@escola.com.br,21 9627-0661,256,end-user,true,2023-11-17 00:00:00,2025-01-13 00:00:00
+259,Vitor Gabriel Cassiano,contato259@escola.com.br,81 2467-4746,149,end-user,true,2023-03-23 00:00:00,2024-02-22 00:00:00
+260,Rafaela Barbosa,contato260@escola.com.br,(071) 2732 3008,56,end-user,true,2022-05-05 00:00:00,2024-09-11 00:00:00
+261,Dra. Maria Fernanda Mendonça,contato261@escola.com.br,71 6656 7491,203,end-user,true,2023-07-05 00:00:00,2025-07-18 00:00:00
+262,Ana Carolina Campos,contato262@escola.com.br,51 9236 4587,196,end-user,true,2022-01-17 00:00:00,2024-09-26 00:00:00
+263,Maria Eduarda Sampaio,contato263@escola.com.br,+55 (081) 6633 7050,251,end-user,false,2023-12-17 00:00:00,2025-02-04 00:00:00
+264,Dra. Clara da Luz,contato264@escola.com.br,0500-724-3992,271,end-user,true,2023-04-29 00:00:00,2024-06-19 00:00:00
+265,Danilo Vargas,contato265@escola.com.br,+55 31 6691 8362,307,end-user,true,2022-06-28 00:00:00,2024-06-09 00:00:00
+266,Isis Sales,contato266@escola.com.br,(031) 8869 4611,302,end-user,true,2022-01-06 00:00:00,2024-02-10 00:00:00
+267,Manuella Casa Grande,contato267@escola.com.br,+55 81 3640-2701,292,end-user,true,2023-09-02 00:00:00,2024-08-14 00:00:00
+268,Oliver Moura,contato268@escola.com.br,84 4622 5223,10,end-user,true,2022-07-10 00:00:00,2025-02-06 00:00:00
+269,Emilly Montenegro,contato269@escola.com.br,+55 61 7932 3023,77,end-user,true,2022-10-09 00:00:00,2024-01-30 00:00:00
+270,Nicolas Macedo,contato270@escola.com.br,0900-121-4161,95,end-user,true,2023-08-29 00:00:00,2025-06-12 00:00:00
+271,Benício Fernandes,contato271@escola.com.br,+55 (041) 9377 1004,222,end-user,true,2023-03-11 00:00:00,2025-04-09 00:00:00
+272,Asafe Brito,contato272@escola.com.br,+55 11 8069-8477,2,end-user,true,2022-06-04 00:00:00,2025-12-07 00:00:00
+273,Dr. Lucca Freitas,contato273@escola.com.br,(081) 5356 6905,266,end-user,true,2023-06-01 00:00:00,2024-07-30 00:00:00
+274,Sr. Alexandre Marques,contato274@escola.com.br,71 2091 8435,156,end-user,true,2022-02-21 00:00:00,2025-08-27 00:00:00
+275,Olívia Moraes,contato275@escola.com.br,81 3050 5057,208,end-user,true,2022-06-22 00:00:00,2024-07-27 00:00:00
+276,Ryan Guerra,contato276@escola.com.br,0800-156-7164,246,end-user,true,2022-04-25 00:00:00,2025-03-26 00:00:00
+277,Evelyn Silva,contato277@escola.com.br,+55 (011) 8980-2714,1,end-user,true,2023-12-28 00:00:00,2025-08-27 00:00:00
+278,Nina Cavalcante,contato278@escola.com.br,(041) 1783-3321,202,end-user,true,2022-10-15 00:00:00,2024-02-23 00:00:00
+279,Pedro Henrique Silva,contato279@escola.com.br,+55 (041) 2564 3471,263,end-user,true,2023-05-18 00:00:00,2025-01-25 00:00:00
+280,Catarina Nascimento,contato280@escola.com.br,(084) 1539-9156,130,end-user,true,2023-09-25 00:00:00,2025-01-24 00:00:00
+281,Dra. Maria Helena Rezende,contato281@escola.com.br,84 6334-1411,307,end-user,true,2022-03-18 00:00:00,2025-12-28 00:00:00
+282,Luigi Sousa,contato282@escola.com.br,0900 319 5256,130,end-user,true,2023-06-27 00:00:00,2025-06-23 00:00:00
+283,Agatha das Neves,contato283@escola.com.br,+55 (081) 9836 6552,256,end-user,true,2023-08-20 00:00:00,2025-02-27 00:00:00
+284,Hellena Caldeira,contato284@escola.com.br,61 0875 2437,152,end-user,true,2022-07-25 00:00:00,2025-07-06 00:00:00
+285,Mirella Casa Grande,contato285@escola.com.br,0300-420-9548,132,end-user,false,2022-04-02 00:00:00,2024-10-11 00:00:00
+286,Srta. Kamilly Santos,contato286@escola.com.br,0500 737 4605,157,end-user,true,2023-08-17 00:00:00,2024-09-30 00:00:00
+287,Gustavo Henrique Siqueira,contato287@escola.com.br,+55 21 0276-4208,226,end-user,true,2023-12-11 00:00:00,2024-11-15 00:00:00
+288,Maitê Lima,contato288@escola.com.br,(071) 5661-8443,262,end-user,true,2022-10-27 00:00:00,2024-01-19 00:00:00
+289,Dra. Maria Júlia Brito,contato289@escola.com.br,+55 81 5904 7292,161,end-user,false,2022-04-08 00:00:00,2025-12-26 00:00:00
+290,Rafaela da Rocha,contato290@escola.com.br,+55 (011) 3330-5912,114,end-user,true,2023-04-14 00:00:00,2025-09-24 00:00:00
+291,Mariane Rocha,contato291@escola.com.br,+55 (041) 0157-2018,147,end-user,true,2022-10-04 00:00:00,2024-11-24 00:00:00
+292,Maitê Pastor,contato292@escola.com.br,(021) 2630-1367,62,end-user,true,2023-04-26 00:00:00,2024-01-19 00:00:00
+293,Erick Rezende,contato293@escola.com.br,41 1764 7501,6,end-user,true,2023-11-02 00:00:00,2025-12-06 00:00:00
+294,Bryan Campos,contato294@escola.com.br,(084) 8309-9974,177,end-user,false,2023-12-15 00:00:00,2024-09-17 00:00:00
+295,Dra. Aylla Vieira,contato295@escola.com.br,0900 267 6492,260,end-user,true,2023-06-20 00:00:00,2024-08-11 00:00:00
+296,Luan Azevedo,contato296@escola.com.br,61 2606-8887,,end-user,false,2022-04-23 00:00:00,2025-10-29 00:00:00
+297,Valentim Pacheco,contato297@escola.com.br,61 1312-9208,160,end-user,true,2023-07-18 00:00:00,2024-08-11 00:00:00
+298,Luara Campos,contato298@escola.com.br,+55 (061) 2932 1840,280,end-user,true,2023-03-24 00:00:00,2024-07-27 00:00:00
+299,Davi Montenegro,contato299@escola.com.br,(031) 5826 0340,10,end-user,false,2023-05-19 00:00:00,2024-04-24 00:00:00
+300,Laís Ribeiro,contato300@escola.com.br,61 7297-5859,236,end-user,false,2022-06-17 00:00:00,2025-03-14 00:00:00
+301,Sophia Costela,contato301@escola.com.br,+55 41 0303 2432,105,end-user,true,2022-04-12 00:00:00,2025-09-23 00:00:00
+302,Helena Pastor,contato302@escola.com.br,11 4296 1844,34,end-user,true,2022-06-05 00:00:00,2024-03-19 00:00:00
+303,Elisa Guerra,contato303@escola.com.br,(051) 1462-8314,264,end-user,true,2022-05-02 00:00:00,2025-08-17 00:00:00
+304,Evelyn Silva,contato304@escola.com.br,31 9892 6256,120,end-user,true,2023-08-25 00:00:00,2025-03-08 00:00:00
+305,Amanda Pereira,contato305@escola.com.br,+55 51 1418 1861,39,end-user,true,2022-06-26 00:00:00,2024-04-29 00:00:00
+306,Sr. Luiz Miguel Farias,contato306@escola.com.br,+55 81 2340-1636,29,end-user,true,2023-07-07 00:00:00,2024-10-28 00:00:00
+307,Davi Cavalcanti,contato307@escola.com.br,51 4971 8594,,end-user,false,2023-12-04 00:00:00,2024-04-08 00:00:00
+308,Júlia Pereira,contato308@escola.com.br,+55 41 0256 2588,230,end-user,true,2022-09-23 00:00:00,2025-08-17 00:00:00
+309,Maria Luiza Mendes,contato309@escola.com.br,0900 240 8222,128,end-user,true,2023-01-09 00:00:00,2024-05-26 00:00:00
+310,Juliana Aragão,contato310@escola.com.br,31 3967 2757,284,end-user,true,2023-04-03 00:00:00,2024-07-05 00:00:00
+311,Laura da Mota,contato311@escola.com.br,(011) 8341-4651,8,end-user,true,2023-06-14 00:00:00,2024-05-19 00:00:00
+312,Anna Liz Barbosa,contato312@escola.com.br,+55 41 1290-1487,258,end-user,false,2022-02-24 00:00:00,2024-05-09 00:00:00
+313,Otávio Rocha,contato313@escola.com.br,31 2778-8160,166,end-user,false,2022-03-14 00:00:00,2025-02-25 00:00:00
+314,Esther Souza,contato314@escola.com.br,+55 (011) 6853 8909,78,end-user,true,2022-04-17 00:00:00,2024-12-11 00:00:00
+315,Eloá Rocha,contato315@escola.com.br,51 3215 2850,132,end-user,false,2022-02-20 00:00:00,2025-08-29 00:00:00
+316,Sabrina Garcia,contato316@escola.com.br,+55 (041) 5153-8144,132,end-user,false,2023-08-03 00:00:00,2025-02-25 00:00:00
+317,Laís da Luz,contato317@escola.com.br,+55 11 0963-4807,275,end-user,true,2022-08-13 00:00:00,2024-12-22 00:00:00
+318,Raquel Araújo,contato318@escola.com.br,11 0975 4510,,end-user,true,2022-06-29 00:00:00,2025-09-29 00:00:00
+319,Sr. Murilo Fogaça,contato319@escola.com.br,+55 (021) 1673 1882,180,end-user,true,2022-12-31 00:00:00,2024-06-09 00:00:00
+320,Camila Mendonça,contato320@escola.com.br,+55 (011) 2437 6545,37,end-user,true,2023-01-07 00:00:00,2025-03-07 00:00:00
+321,Emilly Nascimento,contato321@escola.com.br,+55 81 1772-2560,237,end-user,true,2023-08-15 00:00:00,2025-05-23 00:00:00
+322,Sr. Daniel Correia,contato322@escola.com.br,(011) 0266 5023,307,end-user,true,2022-01-24 00:00:00,2024-09-26 00:00:00
+323,Juliana Campos,contato323@escola.com.br,84 7872 5686,304,end-user,true,2022-05-21 00:00:00,2024-09-21 00:00:00
+324,Daniel Caldeira,contato324@escola.com.br,+55 (031) 2258 0305,,end-user,true,2022-06-02 00:00:00,2024-05-18 00:00:00
+325,Alexia Lopes,contato325@escola.com.br,(081) 4471-6392,104,end-user,true,2023-09-17 00:00:00,2024-12-24 00:00:00
+326,Dra. Ester da Cruz,contato326@escola.com.br,+55 84 1436-3718,146,end-user,true,2023-04-28 00:00:00,2024-04-20 00:00:00
+327,Emilly Correia,contato327@escola.com.br,0900 231 2604,14,end-user,true,2022-02-27 00:00:00,2024-10-07 00:00:00
+328,Diogo Lima,contato328@escola.com.br,+55 (031) 9310 6684,194,end-user,true,2023-09-06 00:00:00,2025-02-24 00:00:00
+329,Dra. Isabel Câmara,contato329@escola.com.br,(081) 6708 6041,,end-user,true,2023-12-17 00:00:00,2024-02-22 00:00:00
+330,Luiz Otávio da Mota,contato330@escola.com.br,(084) 6350 2000,78,end-user,true,2022-02-14 00:00:00,2025-02-11 00:00:00
+331,Luna Cunha,contato331@escola.com.br,(011) 7491 6247,253,end-user,true,2023-02-11 00:00:00,2024-04-18 00:00:00
+332,Dr. Kevin Camargo,contato332@escola.com.br,+55 41 0825 5598,301,end-user,true,2022-11-12 00:00:00,2025-05-27 00:00:00
+333,Maria Fernanda da Costa,contato333@escola.com.br,+55 84 3961-1291,73,end-user,true,2023-02-20 00:00:00,2024-10-22 00:00:00
+334,Gabriel Correia,contato334@escola.com.br,(041) 1189-5473,29,end-user,true,2022-12-09 00:00:00,2025-03-14 00:00:00
+335,Daniela Aparecida,contato335@escola.com.br,+55 81 3684 8557,14,end-user,true,2023-12-07 00:00:00,2024-08-19 00:00:00
+336,Bárbara Lopes,contato336@escola.com.br,+55 (084) 7688 0294,299,end-user,true,2023-03-09 00:00:00,2024-11-06 00:00:00
+337,Srta. Lavínia Aparecida,contato337@escola.com.br,0300 036 7881,217,end-user,true,2022-10-13 00:00:00,2025-02-25 00:00:00
+338,Pedro Lucas Sá,contato338@escola.com.br,31 6866-9432,127,end-user,true,2022-03-16 00:00:00,2024-10-21 00:00:00
+339,Emanuel Oliveira,contato339@escola.com.br,+55 11 9087-8844,157,end-user,true,2022-09-20 00:00:00,2025-04-22 00:00:00
+340,Juan Santos,contato340@escola.com.br,+55 81 8123-0834,243,end-user,true,2022-01-23 00:00:00,2024-04-27 00:00:00
+341,Diogo da Mota,contato341@escola.com.br,+55 84 4033 8105,,end-user,false,2023-05-16 00:00:00,2024-07-08 00:00:00
+342,Maria Eduarda Duarte,contato342@escola.com.br,+55 21 8426 9450,236,end-user,true,2022-05-21 00:00:00,2024-11-14 00:00:00
+343,Alexia Fogaça,contato343@escola.com.br,+55 21 4240-8916,237,end-user,true,2023-12-09 00:00:00,2024-12-01 00:00:00
+344,Jade Pires,contato344@escola.com.br,0500-837-3543,32,end-user,true,2022-06-08 00:00:00,2024-04-10 00:00:00
+345,Maria Laura Cassiano,contato345@escola.com.br,(041) 3652-7172,97,end-user,true,2022-06-18 00:00:00,2025-07-16 00:00:00
+346,Ester Cavalcanti,contato346@escola.com.br,+55 (071) 9724-0422,,end-user,true,2023-08-25 00:00:00,2024-02-14 00:00:00
+347,Esther Azevedo,contato347@escola.com.br,+55 (011) 1637-6182,158,end-user,true,2022-05-15 00:00:00,2024-01-19 00:00:00
+348,Srta. Beatriz Garcia,contato348@escola.com.br,51 0100 2314,,end-user,true,2022-07-15 00:00:00,2024-08-01 00:00:00
+349,Anthony Gabriel Vieira,contato349@escola.com.br,+55 (021) 1851 3279,274,end-user,true,2023-03-07 00:00:00,2025-03-03 00:00:00
+350,Elisa das Neves,contato350@escola.com.br,(071) 7230 8481,70,end-user,false,2022-06-10 00:00:00,2024-10-25 00:00:00
+351,Augusto Caldeira,contato351@escola.com.br,71 4186-2030,304,end-user,true,2023-06-06 00:00:00,2024-08-16 00:00:00
+352,Paulo Gomes,contato352@escola.com.br,+55 (011) 5436-1721,285,end-user,true,2022-10-14 00:00:00,2025-10-25 00:00:00
+353,Cauã da Paz,contato353@escola.com.br,11 1951 5109,26,end-user,true,2023-03-29 00:00:00,2024-05-28 00:00:00
+354,Felipe Lima,contato354@escola.com.br,51 5926 2494,59,end-user,true,2023-08-26 00:00:00,2025-07-14 00:00:00
+355,Sr. João Gabriel Monteiro,contato355@escola.com.br,31 4102 2526,54,end-user,true,2023-08-12 00:00:00,2025-04-04 00:00:00
+356,Pietra Azevedo,contato356@escola.com.br,+55 61 9642 1522,265,end-user,false,2023-08-22 00:00:00,2025-12-25 00:00:00
+357,Maria Dias,contato357@escola.com.br,11 6769-5236,175,end-user,true,2022-04-25 00:00:00,2025-09-14 00:00:00
+358,Sara Nascimento,contato358@escola.com.br,61 7883-6196,294,end-user,true,2023-12-03 00:00:00,2024-07-06 00:00:00
+359,Hellena Sampaio,contato359@escola.com.br,+55 31 3503 0587,199,end-user,true,2023-03-22 00:00:00,2024-04-09 00:00:00
+360,Daniel Araújo,contato360@escola.com.br,(084) 5247 2863,55,end-user,true,2022-08-06 00:00:00,2024-11-14 00:00:00
+361,Henry Gabriel Araújo,contato361@escola.com.br,+55 84 1260 6501,161,end-user,true,2023-08-02 00:00:00,2025-12-05 00:00:00
+362,Ana Sophia Mendes,contato362@escola.com.br,0300-202-5213,268,end-user,true,2023-09-18 00:00:00,2024-01-04 00:00:00
+363,Anthony Gabriel Nunes,contato363@escola.com.br,84 2272 8476,146,end-user,true,2023-10-16 00:00:00,2024-12-20 00:00:00
+364,Sra. Melina Viana,contato364@escola.com.br,+55 (021) 4120 0928,80,end-user,true,2023-04-30 00:00:00,2025-10-23 00:00:00
+365,Anthony Gonçalves,contato365@escola.com.br,(011) 7849-8436,268,end-user,true,2022-03-02 00:00:00,2024-09-09 00:00:00
+366,João Gabriel Borges,contato366@escola.com.br,41 6236-9036,172,end-user,true,2022-08-31 00:00:00,2024-06-18 00:00:00
+367,Breno Sales,contato367@escola.com.br,(061) 7566-2056,118,end-user,false,2023-01-07 00:00:00,2025-11-11 00:00:00
+368,João Gabriel Caldeira,contato368@escola.com.br,+55 51 1595 0342,88,end-user,true,2022-02-10 00:00:00,2024-07-18 00:00:00
+369,Bianca Azevedo,contato369@escola.com.br,+55 11 9043-8303,27,end-user,true,2023-12-01 00:00:00,2025-07-24 00:00:00
+370,Bryan Nunes,contato370@escola.com.br,0300 097 0051,43,end-user,true,2023-04-24 00:00:00,2025-12-09 00:00:00
+371,Anthony Fogaça,contato371@escola.com.br,(011) 6835 6521,98,end-user,false,2022-06-08 00:00:00,2025-12-21 00:00:00
+372,Dr. Theodoro Brito,contato372@escola.com.br,21 2096-7904,126,end-user,true,2023-10-25 00:00:00,2025-08-29 00:00:00
+373,Dom Rodrigues,contato373@escola.com.br,(061) 1133-2288,131,end-user,true,2023-01-24 00:00:00,2025-12-06 00:00:00
+374,Dra. Stephany Vargas,contato374@escola.com.br,(081) 7254 5960,276,end-user,true,2022-11-15 00:00:00,2024-05-10 00:00:00
+375,Dra. Maria Julia da Costa,contato375@escola.com.br,+55 (084) 9912-9710,150,end-user,false,2022-04-25 00:00:00,2025-10-09 00:00:00
+376,Leonardo Novaes,contato376@escola.com.br,+55 31 7175 2421,284,end-user,true,2022-08-07 00:00:00,2025-06-16 00:00:00
+377,Luiz Otávio Fogaça,contato377@escola.com.br,+55 31 1274 7472,141,end-user,true,2023-03-07 00:00:00,2024-02-16 00:00:00
+378,Ryan Aparecida,contato378@escola.com.br,21 4669 2758,294,end-user,true,2023-02-26 00:00:00,2024-07-23 00:00:00
+379,Luara Freitas,contato379@escola.com.br,+55 21 6874 0903,288,end-user,true,2023-02-10 00:00:00,2024-10-21 00:00:00
+380,Dra. Alexia Cassiano,contato380@escola.com.br,+55 51 4629 6136,211,end-user,false,2022-05-07 00:00:00,2025-09-17 00:00:00
+381,Ayla Ferreira,agente1@arco.com.br,(061) 7871-1216,,agent,true,2023-07-27 00:00:00,2025-10-21 00:00:00
+382,Gabriela Guerra,agente2@arco.com.br,(071) 1559 7371,,agent,true,2022-04-17 00:00:00,2025-08-30 00:00:00
+383,Rafael Andrade,agente3@arco.com.br,71 2723-5909,,agent,true,2022-11-15 00:00:00,2024-01-26 00:00:00
+384,Ana Liz Fonseca,agente4@arco.com.br,(021) 7303-0644,,agent,true,2022-05-05 00:00:00,2024-02-29 00:00:00
+385,Emanuelly Barros,agente5@arco.com.br,+55 (011) 1461-4768,,agent,true,2022-12-03 00:00:00,2025-03-05 00:00:00
+386,José Pedro Cirino,agente6@arco.com.br,+55 (071) 1654 2356,,agent,true,2022-09-09 00:00:00,2024-10-08 00:00:00
+387,Olívia Nascimento,agente7@arco.com.br,+55 (031) 6596-0893,,agent,true,2022-05-22 00:00:00,2024-12-11 00:00:00
+388,Diogo Duarte,agente8@arco.com.br,(051) 0272 7516,,agent,true,2022-02-28 00:00:00,2024-07-30 00:00:00
+389,Vicente Silveira,agente9@arco.com.br,+55 (011) 7279 1033,,agent,true,2022-06-05 00:00:00,2025-01-15 00:00:00
+390,Ísis Vasconcelos,agente10@arco.com.br,+55 (041) 9635-3390,,agent,true,2023-03-03 00:00:00,2024-12-15 00:00:00
+391,Dr. Antony da Rosa,agente11@arco.com.br,(041) 8177 6655,,agent,true,2022-06-14 00:00:00,2024-03-04 00:00:00
+392,Mariane Moreira,agente12@arco.com.br,(071) 1276 5289,,agent,true,2023-06-10 00:00:00,2025-11-02 00:00:00
+393,Vitor Hugo Lopes,agente13@arco.com.br,41 4649 1111,,agent,true,2022-06-24 00:00:00,2025-11-20 00:00:00
+394,Allana Pimenta,agente14@arco.com.br,81 1798 1789,,agent,true,2022-03-12 00:00:00,2024-04-02 00:00:00
+395,João Vitor Leão,agente15@arco.com.br,+55 11 3786-1371,,agent,true,2023-05-20 00:00:00,2025-03-18 00:00:00
+396,Dr. Noah Ramos,agente16@arco.com.br,61 0538 4444,,agent,true,2023-03-08 00:00:00,2025-05-28 00:00:00
+397,Isabella Abreu,agente17@arco.com.br,84 0002 5895,,agent,true,2022-03-05 00:00:00,2025-08-21 00:00:00
+398,Sr. Pedro da Costa,agente18@arco.com.br,84 6396-0962,,agent,true,2022-05-23 00:00:00,2024-11-29 00:00:00
+399,Maria Julia Siqueira,agente19@arco.com.br,+55 (051) 6582-6312,,agent,true,2023-09-16 00:00:00,2025-09-11 00:00:00
+400,Bárbara Pires,agente20@arco.com.br,0500 648 2531,,agent,true,2022-06-04 00:00:00,2025-04-26 00:00:00
+401,Apollo Lopes,agente21@arco.com.br,+55 (021) 9209 8196,,agent,true,2023-02-13 00:00:00,2024-07-08 00:00:00
+402,Davi Lucca Marques,agente22@arco.com.br,11 2334 3836,,agent,true,2022-05-23 00:00:00,2024-04-19 00:00:00
+403,Benjamim da Mota,agente23@arco.com.br,+55 21 2091 1791,,agent,true,2023-10-10 00:00:00,2024-12-01 00:00:00
+404,Diego da Paz,agente24@arco.com.br,+55 71 2117-5361,,agent,true,2023-06-02 00:00:00,2024-02-13 00:00:00
+405,Alícia Jesus,agente25@arco.com.br,+55 11 7136 6572,,agent,true,2023-07-28 00:00:00,2025-09-10 00:00:00
+406,Kaique Albuquerque,agente26@arco.com.br,+55 (051) 9901-5579,,agent,true,2022-06-22 00:00:00,2024-01-05 00:00:00
+407,Ísis Abreu,agente27@arco.com.br,+55 (031) 8413-9080,,agent,true,2022-08-05 00:00:00,2025-05-31 00:00:00
+408,Sophie Teixeira,agente28@arco.com.br,+55 (021) 3513-0523,,agent,true,2022-11-11 00:00:00,2025-05-26 00:00:00
+409,Davi Lucas da Mata,agente29@arco.com.br,+55 84 7315-8477,,agent,true,2023-08-28 00:00:00,2025-07-01 00:00:00
+410,Sophie Guerra,agente30@arco.com.br,+55 (071) 4234-6199,,agent,true,2022-11-08 00:00:00,2024-05-06 00:00:00
+411,Enzo Vieira,agente31@arco.com.br,+55 (084) 7676-9459,,agent,true,2023-08-26 00:00:00,2025-02-18 00:00:00
+412,Matheus Lima,agente32@arco.com.br,+55 (081) 9551-7208,,agent,false,2022-08-21 00:00:00,2025-09-02 00:00:00
+413,Nicolas da Rocha,agente33@arco.com.br,0500-856-0125,,agent,true,2023-04-27 00:00:00,2024-04-12 00:00:00
+414,Ester Fogaça,agente34@arco.com.br,+55 51 1355 2510,,agent,true,2022-02-03 00:00:00,2024-08-11 00:00:00
+415,Sr. Lucas Cunha,agente35@arco.com.br,(061) 9538-1649,,agent,true,2022-03-28 00:00:00,2025-08-22 00:00:00
+416,Vinicius Cunha,agente36@arco.com.br,+55 51 8491 9665,,agent,true,2022-01-11 00:00:00,2024-10-05 00:00:00
+417,Sr. Gael Henrique Aragão,agente37@arco.com.br,11 7046-1172,,agent,true,2023-10-18 00:00:00,2024-02-26 00:00:00
+418,Lunna Pastor,agente38@arco.com.br,51 3904 0907,,agent,true,2023-12-19 00:00:00,2025-07-05 00:00:00
+419,Davi Lucca Guerra,agente39@arco.com.br,+55 (051) 8805 0171,,agent,true,2023-11-08 00:00:00,2024-11-18 00:00:00
+420,Liz da Mota,agente40@arco.com.br,(051) 5618 5790,,agent,false,2022-03-31 00:00:00,2025-02-04 00:00:00
+421,Letícia Sampaio,agente41@arco.com.br,(051) 7159-1030,,agent,true,2022-11-11 00:00:00,2025-05-27 00:00:00
+422,Davi Miguel Caldeira,agente42@arco.com.br,(061) 6321 3580,,agent,true,2022-05-05 00:00:00,2025-06-16 00:00:00
+423,Srta. Joana Viana,agente43@arco.com.br,+55 (061) 1041 4596,,agent,true,2023-08-19 00:00:00,2024-07-28 00:00:00
+424,Enzo Gabriel Carvalho,agente44@arco.com.br,0800 712 5296,,agent,true,2023-08-10 00:00:00,2025-07-18 00:00:00
+425,Melissa Rios,agente45@arco.com.br,+55 71 8839 7745,,agent,true,2023-07-22 00:00:00,2024-10-17 00:00:00
+426,Sra. Heloisa Borges,agente46@arco.com.br,+55 71 4158-3311,,agent,true,2023-01-14 00:00:00,2024-05-22 00:00:00
+427,Ana Liz Cunha,agente47@arco.com.br,+55 (021) 3763 7153,,agent,true,2023-12-21 00:00:00,2024-02-12 00:00:00
+428,Vitória Moraes,agente48@arco.com.br,(051) 4728 1235,,agent,true,2023-05-13 00:00:00,2024-09-12 00:00:00
+429,Milena Pinto,agente49@arco.com.br,31 3631-4624,,agent,true,2022-03-09 00:00:00,2025-06-03 00:00:00
+430,Bella Casa Grande,agente50@arco.com.br,(061) 1130-7240,,agent,true,2022-04-01 00:00:00,2025-08-02 00:00:00
+431,Vitória Machado,agente51@arco.com.br,11 4181 5632,,agent,true,2022-01-18 00:00:00,2024-11-04 00:00:00
+432,Sarah Lopes,agente52@arco.com.br,31 5074-5106,,agent,true,2023-04-08 00:00:00,2025-01-30 00:00:00
+433,Sra. Evelyn da Rocha,agente53@arco.com.br,+55 (071) 6294-8978,,agent,true,2023-11-13 00:00:00,2025-01-05 00:00:00
+434,Bianca Rodrigues,agente54@arco.com.br,+55 (071) 3131 0094,,agent,true,2023-05-29 00:00:00,2024-10-25 00:00:00
+435,Benício Nascimento,agente55@arco.com.br,+55 41 4396 6613,,agent,true,2023-03-07 00:00:00,2024-03-24 00:00:00
+436,Dra. Juliana Monteiro,agente56@arco.com.br,+55 (084) 2354-9401,,agent,false,2023-04-10 00:00:00,2025-11-10 00:00:00
+437,Theodoro Sampaio,agente57@arco.com.br,0900-743-2512,,agent,true,2023-11-03 00:00:00,2025-01-16 00:00:00
+438,Lucas Gabriel Marques,agente58@arco.com.br,+55 (011) 0765-0241,,agent,true,2022-10-04 00:00:00,2025-01-26 00:00:00
+439,Anthony Peixoto,agente59@arco.com.br,11 7907 3710,,agent,true,2023-12-13 00:00:00,2025-02-23 00:00:00
+440,João Vitor da Conceição,agente60@arco.com.br,51 8221 1457,,agent,true,2022-10-07 00:00:00,2025-10-09 00:00:00
+441,Marcela Nogueira,agente61@arco.com.br,+55 61 7457-0545,,agent,true,2022-11-15 00:00:00,2025-09-30 00:00:00
+442,Rafaela Camargo,agente62@arco.com.br,+55 81 8026-3257,,agent,false,2022-11-18 00:00:00,2025-10-17 00:00:00
+443,Joaquim Oliveira,agente63@arco.com.br,(021) 5313-6148,,agent,true,2023-01-24 00:00:00,2024-10-03 00:00:00
+444,Valentina Cavalcanti,agente64@arco.com.br,+55 71 5569-6443,,agent,true,2022-12-05 00:00:00,2025-06-12 00:00:00
+445,Vicente Sampaio,agente65@arco.com.br,(081) 9167 9541,,agent,true,2022-02-11 00:00:00,2025-10-30 00:00:00
+446,Theo Rodrigues,agente66@arco.com.br,+55 (011) 7284-9824,,agent,false,2023-01-27 00:00:00,2025-11-09 00:00:00
+447,Laura Azevedo,agente67@arco.com.br,(021) 0703 4910,,agent,true,2023-09-04 00:00:00,2025-12-19 00:00:00
+448,Lorena Abreu,agente68@arco.com.br,(021) 5004-2548,,agent,true,2023-12-21 00:00:00,2025-06-30 00:00:00
+449,Daniela Borges,agente69@arco.com.br,+55 81 2369-1430,,agent,true,2022-02-20 00:00:00,2024-03-27 00:00:00
+450,Maria da Cruz,agente70@arco.com.br,51 6614 4942,,agent,true,2023-10-27 00:00:00,2025-01-15 00:00:00
+451,Maya Rocha,agente71@arco.com.br,(061) 9234 2683,,agent,true,2022-05-10 00:00:00,2025-10-25 00:00:00
+452,Leandro Barros,agente72@arco.com.br,(031) 9782 6612,,agent,true,2023-06-24 00:00:00,2025-01-07 00:00:00
+453,Melina Sales,agente73@arco.com.br,(051) 8575 6766,,agent,false,2022-04-16 00:00:00,2025-03-20 00:00:00
+454,Ana Novais,agente74@arco.com.br,+55 (041) 6129 4398,,agent,true,2023-07-07 00:00:00,2024-11-24 00:00:00
+455,Sr. Yago Nunes,agente75@arco.com.br,(021) 0626 0787,,agent,true,2022-04-03 00:00:00,2025-08-13 00:00:00
+456,Bryan Araújo,agente76@arco.com.br,+55 81 1591-4975,,agent,true,2023-05-06 00:00:00,2025-11-30 00:00:00
+457,Davi Sousa,agente77@arco.com.br,0800 803 8287,,agent,true,2023-10-16 00:00:00,2024-12-17 00:00:00
+458,Henry Gabriel Rocha,agente78@arco.com.br,+55 (021) 4407-9311,,agent,true,2023-02-07 00:00:00,2024-03-18 00:00:00
+459,Eduardo Pereira,agente79@arco.com.br,+55 71 8133 1708,,agent,true,2022-01-27 00:00:00,2024-02-04 00:00:00
+460,Maria Júlia Araújo,agente80@arco.com.br,+55 71 4672 3849,,agent,true,2022-04-22 00:00:00,2024-12-19 00:00:00
+461,Maysa Ribeiro,agente81@arco.com.br,0800-162-0223,,agent,true,2022-05-21 00:00:00,2025-06-01 00:00:00
+462,Thomas Sousa,agente82@arco.com.br,71 3774-4197,,agent,true,2023-09-02 00:00:00,2025-12-27 00:00:00
+463,Dr. Matteo Gomes,agente83@arco.com.br,+55 51 7662 0471,,agent,true,2023-02-17 00:00:00,2024-11-24 00:00:00
+464,Maria Julia Albuquerque,agente84@arco.com.br,0800 409 7052,,agent,true,2023-01-30 00:00:00,2024-11-29 00:00:00
+465,Natália da Mota,agente85@arco.com.br,+55 (021) 2588 3586,,agent,true,2022-11-26 00:00:00,2025-01-19 00:00:00
+466,Ana Luiza Cavalcanti,agente86@arco.com.br,+55 (021) 5957-2446,,agent,true,2023-10-18 00:00:00,2025-12-05 00:00:00
+467,Rodrigo Garcia,agente87@arco.com.br,(071) 9298-8425,,agent,true,2022-11-21 00:00:00,2024-01-13 00:00:00
+468,Marcela Pacheco,agente88@arco.com.br,0900-610-0231,,agent,true,2022-03-27 00:00:00,2024-10-10 00:00:00
+469,Bianca Monteiro,agente89@arco.com.br,(071) 5331-2661,,agent,true,2023-06-22 00:00:00,2025-04-16 00:00:00
+470,José Camargo,agente90@arco.com.br,+55 (051) 1759 0251,,agent,true,2022-01-04 00:00:00,2024-10-02 00:00:00
+471,Sra. Maria Flor Carvalho,agente91@arco.com.br,0500 833 4774,,agent,true,2022-04-22 00:00:00,2025-01-20 00:00:00
+472,Guilherme Sousa,agente92@arco.com.br,+55 (031) 6831-9013,,agent,true,2023-10-02 00:00:00,2025-10-22 00:00:00
+473,Davi Miguel Abreu,agente93@arco.com.br,21 6981 5287,,agent,true,2023-09-14 00:00:00,2024-10-20 00:00:00
+474,Gustavo Henrique Oliveira,agente94@arco.com.br,(071) 8559-8217,,agent,true,2022-12-13 00:00:00,2024-10-03 00:00:00
+475,Maria Flor Barbosa,agente95@arco.com.br,0300 128 4117,,agent,true,2023-04-18 00:00:00,2024-07-03 00:00:00
+476,Benjamim Peixoto,agente96@arco.com.br,71 5034-4651,,agent,true,2023-06-18 00:00:00,2024-03-25 00:00:00
+477,João Pedro Barbosa,agente97@arco.com.br,61 9389-8469,,agent,true,2023-10-12 00:00:00,2024-06-16 00:00:00
+478,Yago Sampaio,agente98@arco.com.br,+55 61 9740 0564,,agent,true,2023-08-22 00:00:00,2025-04-27 00:00:00
+479,Lucas Gabriel Teixeira,agente99@arco.com.br,+55 (081) 2385 0371,,agent,false,2022-11-23 00:00:00,2024-07-01 00:00:00
+480,Ana Carolina Ferreira,agente100@arco.com.br,+55 11 6991 8724,,agent,true,2023-01-09 00:00:00,2024-06-14 00:00:00

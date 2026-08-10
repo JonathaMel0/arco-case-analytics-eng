@@ -1,0 +1,9 @@
+# DuckDB binary (grande, regenerável via load.sql)
+candidato/data/case.duckdb
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

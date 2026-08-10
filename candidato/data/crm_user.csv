@@ -1,0 +1,41 @@
+Id,Name,Email,ProfileName,IsActive,CreatedDate,LastModifiedDate
+005Qs000000000000001,Melina da Mota,user1@arco.com.br,Admin,false,2022-01-01 00:00:00,2025-09-02 00:00:00
+005Qs000000000000002,Pedro Henrique Porto,user2@arco.com.br,CS Manager,true,2022-01-20 00:00:00,2025-03-26 00:00:00
+005Qs000000000000003,Ayla Melo,user3@arco.com.br,Admin,true,2022-11-25 00:00:00,2025-07-08 00:00:00
+005Qs000000000000004,Dr. Lucas Gabriel Duarte,user4@arco.com.br,Account Manager,false,2022-07-14 00:00:00,2024-12-18 00:00:00
+005Qs000000000000005,Bella Castro,user5@arco.com.br,CS Manager,true,2022-10-17 00:00:00,2024-05-26 00:00:00
+005Qs000000000000006,Dr. Thales da Paz,user6@arco.com.br,CS Manager,true,2022-04-24 00:00:00,2023-10-07 00:00:00
+005Qs000000000000007,Maria Liz Teixeira,user7@arco.com.br,Account Manager,true,2022-05-13 00:00:00,2023-12-30 00:00:00
+005Qs000000000000008,Ana Carolina Marques,user8@arco.com.br,Account Manager,true,2022-04-20 00:00:00,2024-11-09 00:00:00
+005Qs000000000000009,Levi da Cunha,user9@arco.com.br,Sales Rep,true,2022-02-02 00:00:00,2025-02-04 00:00:00
+005Qs000000000000010,Sr. Nathan Moraes,user10@arco.com.br,CS Manager,false,2023-06-23 00:00:00,2025-03-30 00:00:00
+005Qs000000000000011,Vitor Hugo Martins,user11@arco.com.br,Admin,true,2023-01-11 00:00:00,2024-02-12 00:00:00
+005Qs000000000000012,Ana Júlia Correia,user12@arco.com.br,Account Manager,true,2022-08-02 00:00:00,2025-05-02 00:00:00
+005Qs000000000000013,Maria Cecília Pinto,user13@arco.com.br,CS Manager,true,2023-04-25 00:00:00,2025-09-28 00:00:00
+005Qs000000000000014,Melina Teixeira,user14@arco.com.br,Account Manager,true,2023-03-02 00:00:00,2025-10-19 00:00:00
+005Qs000000000000015,Gustavo da Mata,user15@arco.com.br,Admin,true,2022-09-30 00:00:00,2024-12-23 00:00:00
+005Qs000000000000016,Caroline da Paz,user16@arco.com.br,Account Manager,true,2022-11-08 00:00:00,2023-09-18 00:00:00
+005Qs000000000000017,Raquel Campos,user17@arco.com.br,Sales Rep,true,2022-04-14 00:00:00,2025-07-12 00:00:00
+005Qs000000000000018,Isaque Santos,user18@arco.com.br,Sales Rep,false,2022-07-14 00:00:00,2024-01-14 00:00:00
+005Qs000000000000019,Leonardo Novaes,user19@arco.com.br,Sales Rep,true,2023-03-02 00:00:00,2025-08-03 00:00:00
+005Qs000000000000020,Yuri Jesus,user20@arco.com.br,Account Manager,true,2023-04-15 00:00:00,2025-06-19 00:00:00
+005Qs000000000000021,Henry Gabriel Camargo,user21@arco.com.br,CS Manager,true,2022-06-20 00:00:00,2025-09-19 00:00:00
+005Qs000000000000022,Bárbara Ramos,user22@arco.com.br,Sales Rep,false,2023-06-01 00:00:00,2024-06-10 00:00:00
+005Qs000000000000023,Theo Silva,user23@arco.com.br,Sales Rep,false,2022-12-27 00:00:00,2024-05-18 00:00:00
+005Qs000000000000024,Thomas Santos,user24@arco.com.br,Admin,true,2023-02-27 00:00:00,2025-08-21 00:00:00
+005Qs000000000000025,Oliver Mendes,user25@arco.com.br,CS Manager,true,2022-09-04 00:00:00,2025-01-27 00:00:00
+005Qs000000000000026,Isabelly Marques,user26@arco.com.br,Sales Rep,false,2022-09-18 00:00:00,2024-07-03 00:00:00
+005Qs000000000000027,Clara Gomes,user27@arco.com.br,CS Manager,false,2023-02-11 00:00:00,2023-07-01 00:00:00
+005Qs000000000000028,Thomas Souza,user28@arco.com.br,Account Manager,true,2022-01-17 00:00:00,2024-12-12 00:00:00
+005Qs000000000000029,Bernardo da Mota,user29@arco.com.br,Sales Rep,true,2022-01-07 00:00:00,2024-05-03 00:00:00
+005Qs000000000000030,Manuela Viana,user30@arco.com.br,Sales Rep,true,2022-11-19 00:00:00,2023-07-23 00:00:00
+005Qs000000000000031,Juliana Abreu,user31@arco.com.br,Admin,true,2022-04-07 00:00:00,2023-08-08 00:00:00
+005Qs000000000000032,Kaique Pastor,user32@arco.com.br,CS Manager,true,2022-06-09 00:00:00,2023-11-19 00:00:00
+005Qs000000000000033,Rebeca Cassiano,user33@arco.com.br,Admin,true,2022-09-13 00:00:00,2024-02-24 00:00:00
+005Qs000000000000034,Zoe Mendes,user34@arco.com.br,Admin,true,2022-04-05 00:00:00,2025-02-04 00:00:00
+005Qs000000000000035,Dr. Yuri Teixeira,user35@arco.com.br,CS Manager,true,2022-03-21 00:00:00,2025-07-10 00:00:00
+005Qs000000000000036,Maria Flor Marques,user36@arco.com.br,Admin,false,2022-06-27 00:00:00,2024-11-11 00:00:00
+005Qs000000000000037,Sr. Isaque Oliveira,user37@arco.com.br,Account Manager,true,2022-02-08 00:00:00,2025-07-18 00:00:00
+005Qs000000000000038,Isabel Vasconcelos,user38@arco.com.br,CS Manager,true,2022-02-27 00:00:00,2025-08-28 00:00:00
+005Qs000000000000039,Ana Clara Dias,user39@arco.com.br,Admin,true,2023-03-21 00:00:00,2024-08-30 00:00:00
+005Qs000000000000040,Sra. Maria Helena Gomes,user40@arco.com.br,Account Manager,true,2022-01-12 00:00:00,2025-04-10 00:00:00
