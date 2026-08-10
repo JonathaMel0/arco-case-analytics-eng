@@ -12,7 +12,7 @@
 | 1 | Subir dados no BigQuery (raw) | ✅ Feito |
 | 2 | Construir modelos dbt (clean → curated → report) | ✅ Feito |
 | 3 | Subir tudo no GitHub | ✅ Feito |
-| 4 | Conectar Metabase e construir relatório | ⏳ Parcial |
+| 4 | Conectar Metabase e construir relatório | ✅ Feito |
 | 5 | Documentações | ⏳ Parcial |
 
 ---
@@ -77,16 +77,19 @@ models/
 
 ---
 
-### ⏳ Passo 4 — Metabase
+### ✅ Passo 4 — Metabase
 
 - [x] Metabase conectado ao BigQuery via service account `metabase-reader`
 - [x] Datasets `clean`, `curated`, `report` visíveis
-- [ ] **Falta construir o dashboard** com os dados do report:
-  - Card 1: Pedidos por escola por mês (de `report__monthly__school_order_metrics`)
-  - Card 2: Volume financeiro por mês
-  - Card 3: Taxa de entrega bem-sucedida
-  - Card 4: Tickets por escola
-  - Card 5: Portfolio YTD por Account Manager (de `report__ytd__am_portfolio_metrics`)
+- [x] Dashboard **"School Operations — Visão Executiva"** construído com 13 cards:
+  - Seção 1 (KPIs): Valor Pedido YTD, Escolas Atendidas, Contratos Ativos, Taxa de Entrega
+  - Seção 2 (Financeiro): Faturamento Mensal, Pedidos Ativos vs Cancelados
+  - Seção 3 (Entrega): Taxa de Entrega por Mês, Volume por Estado
+  - Seção 4 (Suporte): Tickets por Mês, Tempo Médio de Resolução
+  - Seção 5 (P1 — por Escola): Top 10 Escolas por Volume Pedido
+  - Seção 6 (P2 — por AM): Tabela YTD por AM, Faturamento por AM
+- [x] Filtros globais: Período, Estado, Escola
+- [x] Bugs de dados corrigidos: datas 2204 filtradas, school_id em ticket via organization.cnpj
 
 ---
 
@@ -115,7 +118,7 @@ models/
 2. [x] Commitar e fazer push do dbt_arco/ + upload_to_bigquery.py
 3. [x] Criar schema.yml com descrições e testes nas 3 camadas
 4. [x] dbt test — PASS=130 WARN=0 ERROR=0
-5. [ ] Construir dashboard no Metabase (5 cards)
+5. [x] Construir dashboard no Metabase (13 cards)
 6. [ ] Criar README.md do projeto
 7. [ ] Documentar o dashboard
 8. [ ] Commit final e push
