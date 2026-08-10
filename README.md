@@ -201,6 +201,14 @@ Grão: account manager × ano. Responde a **P2 do case** — comparação de AMs
 
 Filtros globais: Período, Estado, Escola.
 
+### Acesso ao dashboard
+
+| Campo | Valor |
+|---|---|
+| URL | https://case-arco.metabaseapp.com/dashboard/34-school-operations-visao-executiva |
+| Usuário | avaliador_arco@arcoeducacao.com.br |
+| Senha | analytics_eng_arco_2026 |
+
 ---
 
 ## Decisões de modelagem relevantes
@@ -219,9 +227,7 @@ Filtros globais: Período, Estado, Escola.
 .
 ├── README.md                        ← este arquivo
 ├── RFC_Modelagem_Arco.md            ← design doc / RFC
-├── PROGRESSO.md                     ← acompanhamento do case
-├── METABASE_DASHBOARD.md            ← guia de construção do dashboard
-├── upload_to_bigquery.py            ← carga inicial dos CSVs no BigQuery raw
+├── DOCUMENTACAO.md                  ← documentação técnica e do dashboard
 ├── candidato/
 │   ├── README_CASE_BRIEFING.md      ← briefing original do case
 │   ├── data/                        ← CSVs e DuckDB originais
