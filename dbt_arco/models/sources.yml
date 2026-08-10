@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: raw
+    database: arco-analytics-eng
+    schema: raw
+    tables:
+      - name: crm_user
+      - name: crm_account
+      - name: crm_product
+      - name: crm_service_contract
+      - name: crm_contract_line_item
+      - name: erp_a_salesperson
+      - name: erp_a_customer
+      - name: erp_a_sales_order
+      - name: erp_a_sales_order_item
+      - name: erp_a_delivery
+      - name: erp_a_invoice
+      - name: erp_b_vendedor
+      - name: erp_b_escola
+      - name: erp_b_pedido
+      - name: erp_b_item_pedido
+      - name: fin_nota_fiscal
+      - name: support_organization
+      - name: support_user
+      - name: support_ticket
+      - name: support_ticket_tag
+

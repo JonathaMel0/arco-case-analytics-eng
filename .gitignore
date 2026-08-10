@@ -7,3 +7,14 @@ Thumbs.db
 
 # VS Code
 .vscode/
+
+# dbt generated
+dbt_arco/target/
+dbt_arco/dbt_packages/
+dbt_arco/logs/
+dbt_arco/dbt_run_output.txt
+
+# Python
+.venv/
+__pycache__/
+*.pyc
