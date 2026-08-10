@@ -475,14 +475,16 @@ quantity_delivered
 
 ---
 
-#### `curated__support__event__ticket` (domínio `support`)
+#### `curated__school_operations__event__ticket`
 
-Fora do escopo da v1 para os reports solicitados, mas modelado para uso futuro:
+Antecipado para a v1 — modelado dentro do domínio `school_operations` para enriquecer o report mensal com dados de atendimento por escola.
 
 ```
-curated/support/ticket/
-└── curated__support__event__ticket.sql
+curated/school_operations/ticket/
+└── curated__school_operations__event__ticket.sql
 ```
+
+**Achado de implementação:** a linkagem `ticket.cnpj_cliente → school.cnpj` falhou (campo vazio em 1.002/1.500 tickets). A rota correta é `ticket.organization_id → support_organization.cnpj → school.cnpj`, resultando em 574 tickets com escola identificada.
 
 ---
 
@@ -498,19 +500,27 @@ report/school_operations/
 └── report__school_operations__monthly__school_order_metrics.sql
 ```
 
-**Colunas:**
+**Colunas implementadas:**
 
 ```
 school_id
 school_name
 cnpj
-year_month            -- DATE truncada para o mês (ex: 2024-10-01)
-ordered_amount        -- SUM(line_total) de itens de pedidos não-cancelados
-delivered_amount      -- SUM(line_total) onde há delivery com status 'delivered'
-order_count           -- COUNT DISTINCT order_id não-cancelados
-delivered_order_count -- COUNT DISTINCT order_id com entrega confirmada
-brand_mix             -- lista de marcas do mês (ARRAY_AGG DISTINCT)
+city, state
+month                    -- DATE truncada para o mês (ex: 2024-10-01)
+total_orders             -- COUNT de pedidos (todos os status)
+active_orders            -- COUNTIF NOT is_cancelled
+cancelled_orders         -- COUNTIF is_cancelled
+ordered_amount           -- SUM(line_total) de itens de pedidos não-cancelados
+ordered_quantity         -- SUM(quantity)
+total_deliveries         -- COUNT de entregas
+successful_deliveries    -- COUNTIF NOT d.is_cancelled
+quantity_delivered       -- SUM(quantity_delivered)
+total_tickets            -- COUNT de tickets do mês
+avg_resolution_hours     -- AVG(resolution_hours)
 ```
+
+> `delivered_amount` (valor proporcional entregue) não foi implementado nesta v1 — requer JOIN entre delivery items e order items para proporcionalização (ver seção 6.6). Usado `successful_deliveries` como proxy de cobertura.
 
 **SQL demonstrativo** (mostrando que a pergunta se resolve com poucas linhas a partir do curated):
 
@@ -548,18 +558,24 @@ report/school_operations/
 └── report__school_operations__ytd__am_portfolio_metrics.sql
 ```
 
-**Colunas:**
+**Colunas implementadas:**
 
 ```
-am_id
-am_name
-year
-ytd_ordered_amount  -- SUM(line_total) de pedidos não-cancelados, via contract
-school_count        -- COUNT DISTINCT school_id na carteira
-order_count         -- COUNT DISTINCT order_id
-contract_count      -- COUNT DISTINCT contract_id ativos
-brand_mix           -- ARRAY_AGG de marcas distintas
+account_manager_id
+account_manager_name
+email
+profile_name
+year                       -- ano máximo dos dados (não CURRENT_DATE — dados históricos)
+total_contracts            -- COUNT DISTINCT contract_id ativos no ano
+total_contracted_amount    -- SUM(grand_total) dos contratos ativos
+total_orders               -- COUNT DISTINCT order_id não-cancelados
+total_schools_served       -- COUNT DISTINCT school_id
+ordered_amount             -- SUM(line_total) de itens de pedidos não-cancelados
+total_tickets              -- COUNT tickets do ano
+avg_resolution_hours       -- AVG(resolution_hours)
 ```
+
+> `year` usa `MAX(EXTRACT(YEAR FROM order_date))` dos próprios dados — necessário porque `CURRENT_DATE()` retornaria 2026 e zeraria todos os agregados com dados históricos.
 
 **SQL demonstrativo:**
 
@@ -758,13 +774,13 @@ Para a pergunta 1 ("quanto recebeu"), o report usa `SUM(line_total) WHERE delive
 
 | Item fora do escopo | Justificativa | Caminho futuro |
 |:--------------------|:--------------|:---------------|
-| **Sistema de suporte nos reports** | Não está nas perguntas de negócio desta v1 | Modelado na curated; relatórios de qualidade de atendimento e correlação com churn ficam para v2 |
+| **Sistema de suporte nos reports** | Antecipado para v1 — métricas de ticket (`total_tickets`, `avg_resolution_hours`) incluídas no report mensal por escola | Relatórios standalone de qualidade de atendimento e correlação com churn ficam para v2 |
 | **SCD (histórico de atributos de escola e AM)** | Adiciona complexidade sem impacto direto nas perguntas | Adicionar `timeline__school` e `timeline__am` quando houver demanda por análise "como era na data X" |
 | **Reconciliação financeira CRM vs. ERPs** | A pergunta pede valor dos itens de pedido, não valor faturado | Cruzamento de GrandTotal do CRM com valor realizado nos ERPs é relevante para auditoria, mas é um report distinto |
 | **Performance por marca dentro de carteira** | Não está no escopo das perguntas | Extensão natural do report de AM: adicionar `brand` como dimensão de agrupamento |
 | **Análises de rede (Network)** | Grão solicitado é escola | `curated__school_operations__current__network` pode ser adicionado futuramente |
 | **Linkagem salesperson ERP A/B ↔ crm_user** | Não há chave compartilhada nos dados | Requer de-para manual (seed) ou match por nome aproximado — fora do escopo automatizável |
-| **Entrega parcial proporcional no `delivered_amount`** | Complexidade adicional no JOIN item-level | Abordagem conservadora: considerar pedido como entregue/não-entregue, sem proporcionalização |
+| **`delivered_amount` proporcional** | Complexidade adicional no JOIN item-level entre delivery e order_item | Implementado `successful_deliveries` (contagem) como proxy; proporcionalização fica para v2 |
 
 ---
 
