@@ -5,7 +5,13 @@
 }}
 
 -- Portfolio YTD por Account Manager
-WITH contracts AS (
+-- usa o ano máximo dos dados para não depender de CURRENT_DATE()
+WITH ref_year AS (
+    SELECT MAX(EXTRACT(YEAR FROM order_date)) AS year
+    FROM {{ ref('curated__school_operations__event__order') }}
+),
+
+contracts AS (
     SELECT
         account_manager_id,
         contract_id,
@@ -14,7 +20,7 @@ WITH contracts AS (
         brand
     FROM {{ ref('curated__school_operations__event__contract') }}
     WHERE is_cancelled = FALSE
-      AND EXTRACT(YEAR FROM start_date) = EXTRACT(YEAR FROM CURRENT_DATE())
+      AND EXTRACT(YEAR FROM start_date) = (SELECT year FROM ref_year)
 ),
 
 orders_ytd AS (
@@ -27,7 +33,7 @@ orders_ytd AS (
     LEFT JOIN {{ ref('curated__school_operations__event__order_item') }} i
         ON i.order_id = o.order_id
     WHERE NOT o.is_cancelled
-      AND EXTRACT(YEAR FROM o.order_date) = EXTRACT(YEAR FROM CURRENT_DATE())
+      AND EXTRACT(YEAR FROM o.order_date) = (SELECT year FROM ref_year)
     GROUP BY 1
 ),
 
@@ -48,7 +54,7 @@ tickets_ytd AS (
     FROM {{ ref('curated__school_operations__event__ticket') }} t
     LEFT JOIN {{ ref('curated__school_operations__event__order') }} o
         ON o.order_id = t.order_id
-    WHERE EXTRACT(YEAR FROM t.created_at) = EXTRACT(YEAR FROM CURRENT_DATE())
+    WHERE EXTRACT(YEAR FROM t.created_at) = (SELECT year FROM ref_year)
     GROUP BY 1
 ),
 
@@ -62,7 +68,7 @@ final AS (
         am.name                                         AS account_manager_name,
         am.email,
         am.profile_name,
-        EXTRACT(YEAR FROM CURRENT_DATE())               AS year,
+        (SELECT year FROM ref_year)                     AS year,
         COALESCE(ca.total_contracts, 0)                 AS total_contracts,
         COALESCE(ca.total_contracted_amount, 0)         AS total_contracted_amount,
         COALESCE(oy.total_orders, 0)                    AS total_orders,

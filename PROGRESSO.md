@@ -113,8 +113,8 @@ models/
 ```
 1. [x] Atualizar .gitignore
 2. [x] Commitar e fazer push do dbt_arco/ + upload_to_bigquery.py
-3. [ ] Criar schema.yml com descrições e testes nas 3 camadas
-4. [ ] dbt test (validar testes)
+3. [x] Criar schema.yml com descrições e testes nas 3 camadas
+4. [x] dbt test — PASS=130 WARN=0 ERROR=0
 5. [ ] Construir dashboard no Metabase (5 cards)
 6. [ ] Criar README.md do projeto
 7. [ ] Documentar o dashboard
