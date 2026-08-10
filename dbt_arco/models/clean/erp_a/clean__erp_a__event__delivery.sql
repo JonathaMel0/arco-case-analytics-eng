@@ -13,6 +13,8 @@ final AS (
         Cancelled = 'Y'             AS is_cancelled,
         CAST(CreateDate AS DATE)    AS created_date
     FROM source
+    -- exclui datas claramente erradas (ex: 2204 por typo de 2024)
+    WHERE EXTRACT(YEAR FROM CAST(DocDate AS DATE)) BETWEEN 2010 AND 2030
 )
 
 SELECT * FROM final

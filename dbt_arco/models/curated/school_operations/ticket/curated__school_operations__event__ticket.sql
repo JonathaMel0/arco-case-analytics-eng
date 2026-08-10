@@ -16,6 +16,12 @@ tags AS (
     GROUP BY 1
 ),
 
+organizations AS (
+    SELECT organization_id, cnpj
+    FROM {{ ref('clean__support__current__organization') }}
+    WHERE cnpj IS NOT NULL
+),
+
 schools AS (
     SELECT school_id, cnpj
     FROM {{ ref('curated__school_operations__current__school') }}
@@ -50,10 +56,10 @@ final AS (
         TIMESTAMP_DIFF(t.solved_at, t.created_at, HOUR) AS resolution_hours,
         CURRENT_TIMESTAMP()                              AS dbt_updated_at
     FROM tickets t
-    LEFT JOIN tags tg       ON tg.ticket_id   = t.ticket_id
-    LEFT JOIN schools s     ON s.cnpj         = t.cnpj_cliente
-                           AND LENGTH(t.cnpj_cliente) = 14
-    LEFT JOIN orders o      ON o.source_order_id = t.order_ref
+    LEFT JOIN tags tg       ON tg.ticket_id      = t.ticket_id
+    LEFT JOIN organizations org ON org.organization_id = t.organization_id
+    LEFT JOIN schools s     ON s.cnpj              = org.cnpj
+    LEFT JOIN orders o      ON o.source_order_id   = t.order_ref
                            AND o.source_system   = 'erp_b'
 )
 
