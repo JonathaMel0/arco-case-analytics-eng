@@ -23,10 +23,3 @@ __pycache__/
 check_*.py
 upload_to_bigquery.py
 
-# Arquivos internos (não entregáveis ao avaliador)
-SCRIPT_APRESENTACAO.md
-PROGRESSO.md
-METABASE_DASHBOARD.md
-orientacoes.txt
-descricao_vaga.txt
-dbt_delivery_fix.txt
