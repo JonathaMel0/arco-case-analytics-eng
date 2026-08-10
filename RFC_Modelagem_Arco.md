@@ -167,7 +167,9 @@ O CRM tem dois tipos de account: **310 Schools** e **50 Networks**. 70 escolas t
 | `custom_field_order_ref` | 614 / 1.500 (40,9%)    |
 | `custom_field_cnpj`   | 498 / 1.500 (33,2%)       |
 
-O sistema de suporte não está diretamente no escopo das perguntas de negócio desta v1, mas é modelado na curated para uso futuro (ex.: correlação entre tickets e inadimplência/churn).
+Os dados de suporte não respondem às perguntas principais do case, mas métricas de ticket (`total_tickets`, `avg_resolution_hours`) foram incluídas no report mensal por escola como dado complementar de saúde da relação escola–Arco.
+
+A linkagem efetiva — rota `ticket.organization_id → support_organization.cnpj → school.cnpj` — resolve **574 de 1.500 tickets (38,3%)** para uma escola identificada. Os 926 restantes ficam sem `school_id` e contribuem com zeros nos agregados do report. Esse gap é documentado como limitação de v1 e está associado à cobertura parcial de CNPJ no sistema de suporte.
 
 ---
 
@@ -205,7 +207,6 @@ Uma tabela por tabela raw. Responsabilidade: padronização sem mudança de grã
 | `fin_nota_fiscal`    | Normalizar `cnpj_cliente`; padronizar `status_entrega`       |
 | `support_organization` | Normalizar `external_id` → `cnpj` (quando CNPJ, 14 dígitos) |
 | `crm_service_contract` | `UPPER(TRIM(ContractNumber))` → `contract_number`; renomear campos; derivar `is_cancelled = (Status = 'Cancelled')` |
-| `erp_b_pedido`       | `UPPER(TRIM(num_contrato))` → `contract_number` (para match com CRM) |
 
 **Mapeamento de status ERP B** (lógica da macro `normalize_erp_b_status`):
 
@@ -217,36 +218,7 @@ CASE
 END
 ```
 
-**Tabelas da camada clean:**
-
-```
-clean/
-├── crm/
-│   ├── clean__crm__current__account.sql
-│   ├── clean__crm__current__user.sql
-│   ├── clean__crm__current__product.sql
-│   ├── clean__crm__event__service_contract.sql
-│   └── clean__crm__event__contract_line_item.sql
-├── erp_a/
-│   ├── clean__erp_a__current__customer.sql
-│   ├── clean__erp_a__current__salesperson.sql
-│   ├── clean__erp_a__event__sales_order.sql
-│   ├── clean__erp_a__event__sales_order_item.sql
-│   ├── clean__erp_a__event__delivery.sql
-│   └── clean__erp_a__event__invoice.sql
-├── erp_b/
-│   ├── clean__erp_b__current__escola.sql
-│   ├── clean__erp_b__current__vendedor.sql
-│   ├── clean__erp_b__event__pedido.sql
-│   └── clean__erp_b__event__item_pedido.sql
-├── fin/
-│   └── clean__fin__event__nota_fiscal.sql
-└── support/
-    ├── clean__support__current__organization.sql
-    ├── clean__support__current__user.sql
-    ├── clean__support__event__ticket.sql
-    └── clean__support__event__ticket_tag.sql
-```
+20 views no total, uma por tabela raw, organizadas em 5 pastas por sistema (`crm/`, `erp_a/`, `erp_b/`, `fin/`, `support/`). Nomenclatura segue o padrão `clean__<sistema>__<tipo>__<entidade>`.
 
 ---
 
@@ -622,42 +594,7 @@ erDiagram
 
 ### 5.5 Organização de pastas (dbt)
 
-```
-models/
-├── clean/
-│   ├── crm/
-│   ├── erp_a/
-│   ├── erp_b/
-│   ├── fin/
-│   └── support/
-│
-├── curated/
-│   ├── school_operations/
-│   │   ├── school/
-│   │   │   ├── staging/
-│   │   │   └── curated__school_operations__current__school.sql
-│   │   ├── account_manager/
-│   │   │   └── curated__school_operations__current__account_manager.sql
-│   │   ├── contract/
-│   │   │   └── curated__school_operations__event__contract.sql
-│   │   ├── order/
-│   │   │   ├── staging/
-│   │   │   └── curated__school_operations__event__order.sql
-│   │   ├── order_item/
-│   │   │   ├── staging/
-│   │   │   └── curated__school_operations__event__order_item.sql
-│   │   └── delivery/
-│   │       ├── staging/
-│   │       └── curated__school_operations__event__delivery.sql
-│   └── support/
-│       └── ticket/
-│           └── curated__support__event__ticket.sql
-│
-└── report/
-    └── school_operations/
-        ├── report__school_operations__monthly__school_order_metrics.sql
-        └── report__school_operations__ytd__am_portfolio_metrics.sql
-```
+A estrutura de arquivos espelha a arquitetura de domínio: `models/clean/<sistema>/`, `models/curated/school_operations/<entidade>/` (com subpasta `staging/` onde há múltiplas fontes) e `models/report/school_operations/`. A estrutura completa está disponível no [repositório do projeto](https://github.com/JonathaMel0/arco-case-analytics-eng/tree/main/dbt_arco/models).
 
 ---
 
