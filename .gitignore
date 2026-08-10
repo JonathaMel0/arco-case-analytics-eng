@@ -18,3 +18,15 @@ dbt_arco/dbt_run_output.txt
 .venv/
 __pycache__/
 *.pyc
+
+# Scripts de exploração/análise pontuais
+check_*.py
+upload_to_bigquery.py
+
+# Arquivos internos (não entregáveis ao avaliador)
+SCRIPT_APRESENTACAO.md
+PROGRESSO.md
+METABASE_DASHBOARD.md
+orientacoes.txt
+descricao_vaga.txt
+dbt_delivery_fix.txt
