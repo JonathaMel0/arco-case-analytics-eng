@@ -208,7 +208,7 @@ Uma tabela por tabela raw. Responsabilidade: padronização sem mudança de grã
 | `support_organization` | Normalizar `external_id` → `cnpj` (quando CNPJ, 14 dígitos) |
 | `crm_service_contract` | `UPPER(TRIM(ContractNumber))` → `contract_number`; renomear campos; derivar `is_cancelled = (Status = 'Cancelled')` |
 
-**Mapeamento de status ERP B** (lógica da macro `normalize_erp_b_status`):
+**Mapeamento de status ERP B** (lógica aplicada inline na camada clean):
 
 ```sql
 CASE
@@ -690,7 +690,7 @@ A entrega tem dois mecanismos nos dados:
 
 A entidade curated `delivery` consolida os dois, usando `order_id` como FK. Para o ERP A, um pedido pode ter múltiplas deliveries (entregas parciais). O campo `quantity_delivered` captura isso.
 
-Para a pergunta 1 ("quanto recebeu"), o report usa `SUM(line_total) WHERE delivery.status = 'delivered'` — se houver entregas parciais, o valor proporcional seria mais preciso, mas exige um JOIN entre delivery items e order items (out of scope v1 por complexidade). Premissa: considerar valor do pedido como entregue se houver ao menos uma delivery com status `'delivered'`.
+Para a pergunta 1 ("quanto recebeu"), o report usa `SUM(line_total) WHERE delivery.status = 'delivered'` — se houver entregas parciais, o valor proporcional seria mais preciso, mas exige um JOIN entre delivery items e order items (fora do escopo da v1 pela complexidade). Premissa: considerar valor do pedido como entregue se houver ao menos uma delivery com status `'delivered'`.
 
 ---
 
@@ -767,7 +767,7 @@ test_no_cross_erp_duplicate_order:
 
 ## 10. Questões em aberto
 
-### 7.1 Definição precisa de "Account Manager" para a pergunta 2
+### 10.1 Definição precisa de "Account Manager" para a pergunta 2
 
 O CRM tem 4 perfis distintos como donos de contratos (`Account Manager`, `CS Manager`, `Admin`, `Sales Rep`), distribuídos de forma relativamente uniforme. A pergunta menciona "AM" — mas na prática, qual perfil constitui a carteira a ser comparada?
 
@@ -775,11 +775,11 @@ O CRM tem 4 perfis distintos como donos de contratos (`Account Manager`, `CS Man
 
 **Sugestão:** Confirmar com a equipe comercial se "AM" inclui todos os perfis (usando `crm_service_contract.OwnerId` como referência) ou apenas o perfil `Account Manager`. O modelo já suporta os dois cenários via filtro no report.
 
-### 7.2 Status `'A'` no ERP B
+### 10.2 Status `'A'` no ERP B
 
 O valor `'A'` representa 89 pedidos no ERP B. Pode ser uma sigla para "Aberto", "Aprovado" ou "Ativo" — o significado muda a classificação (in_progress vs. cancelled). Assumido como `in_progress` nesta proposta.
 
-### 7.3 Escolas em ambos os ERPs para o mesmo contrato
+### 10.3 Escolas em ambos os ERPs para o mesmo contrato
 
 A hipótese de que são transações legítimas (seção 6.3) precisa ser validada com o time de operações ou engenharia dos sistemas. Se for confirmado que é uma migração de sistema (mesma transação em dois ERPs), a decisão muda para priorizar um ERP sobre o outro.
 
