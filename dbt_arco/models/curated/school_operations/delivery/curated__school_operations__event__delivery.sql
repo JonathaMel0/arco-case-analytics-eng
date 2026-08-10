@@ -53,3 +53,4 @@ final AS (
 )
 
 SELECT * FROM final
+WHERE EXTRACT(YEAR FROM delivery_date) BETWEEN 2010 AND 2030
