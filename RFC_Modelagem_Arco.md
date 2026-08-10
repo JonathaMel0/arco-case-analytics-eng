@@ -490,6 +490,8 @@ curated/school_operations/ticket/
 
 ### 5.3 Camada Report
 
+> **Nota sobre o tipo `ytd`:** O guideline de nomenclatura define os tipos `daily`, `weekly` e `monthly` para agregações temporais. O tipo `ytd` (year-to-date) foi adicionado como extensão — representa acumulado no ano com grão análogo ao `monthly`, mas com janela fixa anual. Não há equivalente nos tipos definidos, e o desvio é intencional e documentado aqui.
+
 #### `report__school_operations__monthly__school_order_metrics`
 
 **Responde:** Pergunta 1 — Visão consolidada de venda por escola, mês a mês.  
